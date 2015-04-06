@@ -1,0 +1,50 @@
+[
+    { 
+        "name" : "The Cricketer's Arms Trading Co.",
+        "address" : "57 Murray Street",
+        "tel" : "212.619.5550",
+        "map_url" : "https://www.google.ca/maps/place/57+Murray+St,+New+York,+NY+10007,+USA/data=!4m2!3m1!1s0x89c25a1ed4ef2eff:0xea85dd5bda7a7f81?sa=X&ei=BP4hVeLOBsLvsAWfvYGQDw&ved=0CBwQ8gEwAA"
+    },
+    { 
+        "name" : "De Claudio",
+        "address" : "21 Ann Street",
+        "tel" : "212.619.5550",
+        "map_url" : "https://www.google.ca/maps/place/57+Murray+St,+New+York,+NY+10007,+USA/data=!4m2!3m1!1s0x89c25a1ed4ef2eff:0xea85dd5bda7a7f81?sa=X&ei=BP4hVeLOBsLvsAWfvYGQDw&ved=0CBwQ8gEwAA"
+    },
+    { 
+        "name" : "Maxwell's Bar & Grill",
+        "address" : "59 Reade Street",
+        "tel" : "212.619.5550",
+        "map_url" : "https://www.google.ca/maps/place/57+Murray+St,+New+York,+NY+10007,+USA/data=!4m2!3m1!1s0x89c25a1ed4ef2eff:0xea85dd5bda7a7f81?sa=X&ei=BP4hVeLOBsLvsAWfvYGQDw&ved=0CBwQ8gEwAA"
+    },
+    { 
+        "name" : "Delicatessen",
+        "address" : "54 Prince Street",
+        "tel" : "212.619.5550",
+        "map_url" : "https://www.google.ca/maps/place/57+Murray+St,+New+York,+NY+10007,+USA/data=!4m2!3m1!1s0x89c25a1ed4ef2eff:0xea85dd5bda7a7f81?sa=X&ei=BP4hVeLOBsLvsAWfvYGQDw&ved=0CBwQ8gEwAA"
+    },
+    { 
+        "name" : "The Cricketer's Arms Trading Co.",
+        "address" : "57 Murray Street",
+        "tel" : "212.619.5550",
+        "map_url" : "https://www.google.ca/maps/place/57+Murray+St,+New+York,+NY+10007,+USA/data=!4m2!3m1!1s0x89c25a1ed4ef2eff:0xea85dd5bda7a7f81?sa=X&ei=BP4hVeLOBsLvsAWfvYGQDw&ved=0CBwQ8gEwAA"
+    },
+    { 
+        "name" : "De Claudio",
+        "address" : "21 Ann Street",
+        "tel" : "212.619.5550",
+        "map_url" : "https://www.google.ca/maps/place/57+Murray+St,+New+York,+NY+10007,+USA/data=!4m2!3m1!1s0x89c25a1ed4ef2eff:0xea85dd5bda7a7f81?sa=X&ei=BP4hVeLOBsLvsAWfvYGQDw&ved=0CBwQ8gEwAA"
+    },
+    { 
+        "name" : "Maxwell's Bar & Grill",
+        "address" : "59 Reade Street",
+        "tel" : "212.619.5550",
+        "map_url" : "https://www.google.ca/maps/place/57+Murray+St,+New+York,+NY+10007,+USA/data=!4m2!3m1!1s0x89c25a1ed4ef2eff:0xea85dd5bda7a7f81?sa=X&ei=BP4hVeLOBsLvsAWfvYGQDw&ved=0CBwQ8gEwAA"
+    },
+    { 
+        "name" : "Delicatessen",
+        "address" : "54 Prince Street",
+        "tel" : "212.619.5550",
+        "map_url" : "https://www.google.ca/maps/place/57+Murray+St,+New+York,+NY+10007,+USA/data=!4m2!3m1!1s0x89c25a1ed4ef2eff:0xea85dd5bda7a7f81?sa=X&ei=BP4hVeLOBsLvsAWfvYGQDw&ved=0CBwQ8gEwAA"
+    }
+]

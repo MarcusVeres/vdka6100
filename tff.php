@@ -31,7 +31,38 @@
 
     <div class="row">
         <div class="col-xs-12">
-            Placeholder for locations.
+
+            <?php
+                $root = $_SERVER['DOCUMENT_ROOT'];
+                $json = file_get_contents( $root . '/assets/data/locations.json' );
+                $json = json_decode($json);
+            ?>
+
+            <ul class="locations">
+
+                <?php foreach($json as $obj): ?>
+
+                    <li>
+                        <span class="strong">
+                            <?php echo $obj->name; ?>
+                        </span> | 
+                        <span>
+                            <?php echo $obj->address; ?>
+                        </span> | 
+                        <span>
+                            <?php echo $obj->tel; ?>
+                        </span> | 
+                        <span class="map">
+                            <a href="<?php echo $obj->map_url; ?>" target="_blank" >
+                                MAP
+                            </a>
+                        </span>
+                    </li>
+
+                <?php endforeach; ?>
+
+            </ul>
+
         </div>
     </div>
 
