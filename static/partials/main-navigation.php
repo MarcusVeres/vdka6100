@@ -16,7 +16,7 @@
 
                 <ul class="main-menu">
                     <li>
-                        <a href="/vkda6100">
+                        <a href="/vdka6100">
                             VDKA 6100
                         </a>
                     </li>
@@ -31,7 +31,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/contact">
+                        <a href="#">
                             Contact
                         </a>
                     </li>
