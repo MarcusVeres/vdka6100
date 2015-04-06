@@ -15,10 +15,8 @@
 // -----------------------------------------
 // html elements
 
-html
-    background: $off_black
-
 html, body 
+    background: $black
     padding: 0
     margin: 0
 
@@ -27,6 +25,7 @@ body
     font-weight: 400
     color: $text_color
     padding-top: 60px
+    padding-bottom: 8rem
 
 
 //a
@@ -148,14 +147,9 @@ section.divider
 
 
 section.footer
-    background: #222
+    background: $black
     padding-top: 1.4rem
-    border-top: 1px solid #2A2929
     padding-bottom: 3rem
-
-    a
-        color: $white
-        text-decoration: none !important
 
 
 // wrappers
@@ -173,6 +167,9 @@ section.footer
     &.unlimited 
         max-width: 100%
         width: auto
+
+    &.flush
+        padding: 0
 
     &.text
         max-width: 840px
@@ -268,27 +265,45 @@ section.footer
 
 .sitemap
     @include unstyled-list()
-    text-align: center
-    color: #666
-    padding: 2rem
-
-    li
-        display: inline-block
-        padding: 0.6rem 0.4rem
-
-        &:first-child
-            border-left: none
+    text-align: left
+    color: $dark_gray
+    font-size: 1rem
+    font-weight: 400
 
     a
-        font-size: 1.2rem
-        font-weight: 500
-        color: #303030
+        color: $dark_gray
+        font-weight: 700
         text-decoration: none
         text-transform: uppercase
+        text-decoration: none
+        transition: all 0.4s ease-in-out
 
         &:hover
             text-decoration: underline
+            color: $off_white
 
+
+    &.social
+        float: right
+        font-size: 2.4rem
+
+        li
+            display: inline-block
+
+    
+    &.legal
+        font-weight: 700
+        text-transform: uppercase
+
+
+    &.disclaimers
+
+        li
+            transition: all 0.4s ease-in-out
+
+            &:hover
+                color: $off_white
+            
 
 // horizontal rules
 
