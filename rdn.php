@@ -1,38 +1,6 @@
-<section>
-
 <?php include('static/partials/header.php'); ?>
 
-<!-- the nav -->
-<section>
-
-    <div class="logo">
-        VDKA 6100
-    </div>
-
-    <ul class="main-nav">
-        <li>
-            <a href="/vkda6100">
-                VDKA 6100
-            </a>
-        </li>
-        <li>
-            <a href="/vision">
-                The Vision
-            </a>
-        </li>
-        <li>
-            <a href="/tff">
-                TFF
-            </a>
-        </li>
-        <li>
-            <a href="/contact">
-                Contact
-            </a>
-        </li>
-    </ul>
-
-</section>
+<?php include('static/partials/main-navigation.php'); ?>
 
 <!-- header -->
 <section class="banner main rdn">

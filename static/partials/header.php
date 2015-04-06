@@ -34,5 +34,3 @@
 </head>
 <body>
 
-    <?php include 'main-navigation.php' ?>
-

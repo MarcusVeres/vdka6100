@@ -24,7 +24,7 @@ body
     font-family: 'Roboto', 'Helvetica Neue', 'Arial', sans-serif
     font-weight: 400
     color: $text_color
-    padding-top: 60px
+    padding-top: 100px
     padding-bottom: 8rem
 
 
@@ -76,6 +76,40 @@ p
         font-size: 1.8rem
         line-height: 2.9rem
         
+
+// navigation
+
+nav
+    background: rgba( 0 , 0 , 0 , 0.8 )
+    position: fixed
+    top: 0
+    width: 100%
+    z-index: 100
+
+    .logo
+        padding: 4px
+        max-width: 100px
+
+        img
+            width: 100%
+
+    .main-menu
+        @include unstyled-list()
+        float: right
+
+        li
+            display: inline-block
+            margin: 0.8rem 0.6rem
+
+        a
+            font-weight: 700
+            font-size: 1.4rem
+            text-transform: uppercase
+            transition: all 0.4s ease-in-out
+            color: $dark_gray
+
+            &:hover
+                color: $off_white
 
 
 // sections
