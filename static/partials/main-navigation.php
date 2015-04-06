@@ -7,7 +7,9 @@
             <div class="display-cell">
 
                 <div class="logo">
-                    <img src="/assets/img/logo.png" title="VDKA6100" alt="VDKA6100 Logo" />
+                    <a href="/home">
+                        <img src="/assets/img/logo.png" title="VDKA6100" alt="VDKA6100 Logo" />
+                    </a>
                 </div>
 
             </div>
