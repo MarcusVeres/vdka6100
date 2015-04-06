@@ -32,7 +32,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/contact">
+                        <a href="/#">
                             Contact Us
                         </a>
                     </li>
