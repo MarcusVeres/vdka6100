@@ -6,7 +6,7 @@
 
         <img class="logo" src="/assets/img/logo.png" />
 
-        <div class="display-row">
+        <div class="display-row" style="height: 100%;">
             <div class="display-cell">
 
                 <h2 class="tagline wide">
@@ -14,12 +14,16 @@
                 </h2>
 
                 <div class="inline">
-                    <button class="btn line">
-                        Over 21
-                    </button>
-                    <button class="btn line">
-                        Under 21
-                    </button>
+                    <a href="/home">
+                        <button class="btn line">
+                            Over 21
+                        </button>
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=M5QGkOGZubQ">
+                        <button class="btn line">
+                            Under 21
+                        </button>
+                    </a>
                 </div>
 
                 <div class="checkbox">
@@ -34,7 +38,7 @@
     </div>
 
     <div class="display-table" style="height: 8%">
-        <div class="display-row" style="height: 100px; width: auto; border-top: 1px solid gray;">
+        <div class="display-row" style="width: auto; border-top: 1px solid gray;">
             <div class="display-cell agreement-wrapper">
 
                 <div class="implicit-agreement">
