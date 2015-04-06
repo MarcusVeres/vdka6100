@@ -1,13 +1,17 @@
 <section class="lightbox dark padded">
 <div class="content-wrapper">
 
-    <h2>Contact Us</h2>
+    <h2 class="tagline centered black">
+        Get in Touch
+    </h2>
 
-    <p class="larger">
-        Let us bring YOUR event to life!<br> 
-        EST would love to plan and staff your next event.
-    </p>
+    <div class="block-form">
 
+        
+
+    </div>
+
+    <!--
     <div class="row">
         <div class="col-xs-12 col-sm-6 col-sm-offset-3">
 
@@ -29,8 +33,15 @@
 
         </div>
     </div>
+    -->
 
-    <p class="larger">You can also call us at 416-456-4943</p>
+    <h2 class="tagline centered black">
+        Press Inquiries
+    </h2>
+
+    <p class="">
+        Sandy Han, Media Maison 212-799-6100 email
+    </p>
 
 </div>
 </section>

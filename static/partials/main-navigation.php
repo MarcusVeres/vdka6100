@@ -33,7 +33,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#" data-toggle="modal" data-target="#basicModal">
                             Contact
                         </a>
                     </li>
