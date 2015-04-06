@@ -1,0 +1,278 @@
+// -----------------------------------------
+// get our imports out of the way
+
+@import 'colors'
+@import 'constants'
+@import 'fonts'
+
+@import 'mixins'
+@import 'properties'
+// @import 'typography'
+
+// @import 'overrides' // overrides theme-specific , e.g. bootstrap
+
+
+// -----------------------------------------
+// html elements
+
+html
+    background: #222
+
+html, body 
+    padding: 0
+    margin: 0
+
+body
+    font-family: 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif
+    font-weight: 400
+    color: $text_color
+    padding-top: 60px
+
+
+//a
+//    color: $purple
+//
+//    &:hover
+//        color: $dark_orange
+//
+//    &.inverse
+//        background-color: $orange
+//        color: $white   
+//
+//        &:hover
+//            background-color: $dark_orange !important
+//
+
+h1, h2, h3, h4, h5, h6
+    font-weight: 100
+
+h1,h2
+    color: $purple
+    padding-bottom: 2.8rem
+    padding-top: 2rem
+    font-weight: 300
+    font-weight: 400
+    font-weight: 700
+
+h1
+    font-size: 3rem
+    line-height: 4rem
+    max-width: 600px
+    text-align: center
+    margin: 1rem auto 2rem auto
+    font-weight: 100
+
+h2
+    font-size: 2.4rem
+    line-height: 2.6rem
+
+
+// wrappers
+
+.content-wrapper,
+    
+    max-width: $max_width
+    margin: auto
+    padding: 1em
+
+    &.squashed
+        padding-top: 0
+        padding-bottom: 0
+
+
+// layout components
+
+.cell-parent
+    display: table
+    background: tan
+
+.cell-child
+    display: table-cell
+    vertical-align: middle
+
+
+// components
+
+// buttons
+ 
+// sections
+
+section 
+    width: 100%
+    clear: both
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center center
+    background-color: #FFF
+
+
+section.padded
+    padding-top: 2rem
+    padding-bottom: 2rem
+
+
+section.banner.main
+    position: relative
+    min-height: 400px
+    overflow: hidden
+    background-size: cover
+    background-repeat: no-repeat
+    color: $white
+    padding: 0
+    margin: 0
+    display: table !important
+
+    .banner-main-inner-wrapper
+        display: table-row
+        background: $header_tint
+        padding: 4rem 0
+
+    .banner-main-inner-content
+        display: table-cell
+        vertical-align: middle
+        height: 400px
+
+    .content-wrapper
+        padding-top: 6rem
+        padding-bottom: 6rem
+
+
+section.divider
+    background: $teal
+    color: $white
+    border-top: 1px solid $light_teal
+    border-bottom: 1px solid $light_teal
+
+    a
+        color: $white
+        &:hover
+            text-decoration: underline
+
+
+section.footer
+    background: #222
+    padding-top: 1.4rem
+    border-top: 1px solid #2A2929
+    padding-bottom: 3rem
+
+    a
+        color: $white
+        text-decoration: none !important
+
+// images
+
+
+// lists
+
+.models
+
+    img
+        @include black-and-white()
+
+    .image-wrapper
+        height: 240px
+        overflow: hidden
+        background: #202020
+        display: block
+
+
+.social-icons
+    @include unstyled-list()  
+    color: $white
+    font-size: 3rem
+    padding: 2rem
+    
+    li
+        color: $white
+        display: inline-block
+        border: 1px solid $white
+        @include border-radius( 50% )
+        padding: 0.4rem
+        cursor: pointer
+
+        &:hover
+            background: $purple
+    
+
+.sitemap
+    @include unstyled-list()
+    text-align: center
+    color: #666
+    padding: 2rem
+
+    li
+        display: inline-block
+        padding: 0.6rem 0.4rem
+
+        &:first-child
+            border-left: none
+
+    a
+        font-size: 1.2rem
+        font-weight: 500
+        color: #303030
+        text-decoration: none
+        text-transform: uppercase
+
+        &:hover
+            text-decoration: underline
+
+
+// horizontal rules
+
+hr.hairline
+    background: #CCC
+    height: 1px
+    border: none
+    width: 96%
+    margin-left: auto
+    margin-right: auto
+
+
+// default table styles
+
+table
+
+    width: 100%
+
+    tr
+        &:nth-child(2n)
+            background: #EEE
+        &:hover
+            background: $light_gray
+
+    td
+        padding: 2px
+
+
+// footer stuff
+
+.copyright
+    text-align: center
+    color: $gray
+    font-size: 0.9rem
+
+
+// effects
+
+.hover-opacity
+    
+    &:hover
+        @include opacity(64)
+
+
+// hide from mobile devices
+
+@media screen and (max-width: 499px)
+
+    .hide-from-mobile
+        display: none
+
+
+// only show mobile
+
+@media screen and (min-width: 500px)
+
+    .hide-from-desktop
+        display: none
+

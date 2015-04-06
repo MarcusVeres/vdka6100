@@ -1,0 +1,101 @@
+
+// text
+
+h1,h2,h3,h4,h5,h6
+    font-weight: 100
+    margin: 0
+
+h2,
+h2 dropdown
+
+    font-size: 57px
+
+.bold
+    font-weight: 400
+.strong
+    font-weight: 700
+
+.s1,
+.s2
+    color: $dark_gray
+    margin: 0
+    margin-top: 1em
+    &:first-child
+        margin-top: 0
+
+.s1
+    font-size: 2.2em
+    &.source
+        font-size: 1.4em
+    &.bold
+        font-weight: bold
+    &.light
+        font-weight: 100
+    .em
+        color: $orange
+        font-weight: 400 
+
+.s2
+    font-size: 1.5em
+    &.source
+        font-size: 1.2em
+        padding: 1em
+    .em
+        font-weight: 700 
+
+.s3
+    font-size: 1.4em
+    line-height: 1.8em
+    text-align: justify 
+    text-align-last: left
+    margin-bottom: 1.8em
+    .em
+        font-weight: 400 
+
+.highlight
+    padding: 0.1em 0.2em
+    line-height: 1.8em
+
+.shade
+    background-color: rgba( 12 , 12 , 12 , 0.4 )
+    padding: 0.6em 0.8em
+    color: $white
+
+.tagline
+    padding: 1em
+    font-size: 1.8em
+
+.testimonial
+    &.right
+        float: right
+        text-align: right
+    &.left
+        float: left
+        text-align: left
+    .content-wrapper
+        padding-top: 8em
+        padding-bottom: 8em
+    p
+        width: 90%
+        max-width: 360px
+
+// icons
+
+.fa-graphic
+    font-size: 88px
+
+
+// responsive
+
+@media screen and (max-width: 480px)
+
+    .s1
+        font-size: 1.4em
+    .s2
+        font-size: 1.2em
+        text-align: left
+    .s3
+        font-size: 1.1em
+        line-height: 1.6
+
+

@@ -1,0 +1,108 @@
+@mixin border-radius($radius)
+    -webkit-border-radius:  $radius
+    -moz-border-radius:     $radius
+    -ms-border-radius:      $radius
+    border-radius:          $radius
+
+@mixin corner-radius($radius)
+    -webkit-border-radius:  0 $radius 0 0 
+    -moz-border-radius:     0 $radius 0 0 
+    -ms-border-radius:      0 $radius 0 0 
+    border-radius:          0 $radius 0 0 
+
+@mixin top-corner-radius($radius)
+    -webkit-border-radius:  $radius $radius 0 0 
+    -moz-border-radius:     $radius $radius 0 0 
+    -ms-border-radius:      $radius $radius 0 0 
+    border-radius:          $radius $radius 0 0 
+
+@mixin hover-opacity()
+    transition: opacity 0.5s ease
+
+@mixin text-shadow()
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4)
+
+@mixin opacity($opacity)
+    opacity: $opacity / 100
+    filter: alpha(opacity=$opacity)
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=$opacity)"
+
+@mixin unstyled-list
+    list-style: none
+    padding: 0
+    margin: 0
+
+@mixin grayscale-shadow( $color , $opacity )
+    -webkit-box-shadow: 0px 0px 2px 2px rgba( $color , $color , $color , $opacity )
+    box-shadow: 0px 0px 2px 2px rgba( $color , $color , $color , $opacity )
+
+@mixin inset-button()
+    @include border-radius( 8px )
+    background: #E4A40C
+    border: 1px solid #BB880A
+    border-bottom-color: #FFE28F
+    text-shadow: 1px 1px 0 #FFD800
+    padding: 1em
+
+    h1,h2,h3,h4,h5,h6,p,a
+
+        font-family: 'Roboto Slab', monospace !important
+        font-weight: 700
+        color: $off_black
+        text-shadow: 2px 2px 0 #F5E176
+        margin: 0
+        padding: 0
+
+@mixin golden-button()
+
+    @include border-radius( 8px )
+    border-bottom: 2px solid $off_yellow
+    border-right: 2px solid $off_yellow
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset
+    background-color: #FFC520
+    border-color: #C38226
+    text-align: center
+    text-transform: uppercase
+    padding: 1em
+
+    h1,h2,h3,h4,h5,h6,p,a
+
+        font-family: 'Roboto Slab', monospace !important
+        font-weight: 700
+        color: $off_black
+        text-shadow: 2px 2px 0 #F5E176
+        margin: 0
+        padding: 0
+
+@mixin color-button( $color , $highlight , $shadow )
+    
+    border-top: 1px solid $highlight
+    border-left: 1px solid $highlight
+    border-right: 1px solid $shadow
+    border-bottom: 1px solid $shadow
+    background: $color
+    color: $white
+    text-shadow: 1px 1px 0 $shadow
+
+    &:hover
+        background: $highlight
+
+=placeholder
+    \::-webkit-input-placeholder
+        @content
+    \:-moz-placeholder
+        @content
+    \::-moz-placeholder
+        @content
+    \:-ms-input-placeholder
+        @content
+
+@mixin black-and-white()
+
+    -webkit-filter: grayscale(1)
+    -webkit-filter: grayscale(100%)
+    filter: gray
+    filter: grayscale(100%)
+    filter: url(desaturate.svg#greyscale)
+
