@@ -66,35 +66,6 @@ h2
     font-size: 2.4rem
     line-height: 2.6rem
 
-
-// wrappers
-
-.content-wrapper,
-    
-    max-width: $max_width
-    margin: auto
-    padding: 1em
-
-    &.squashed
-        padding-top: 0
-        padding-bottom: 0
-
-
-// layout components
-
-.cell-parent
-    display: table
-    background: tan
-
-.cell-child
-    display: table-cell
-    vertical-align: middle
-
-
-// components
-
-// buttons
- 
 // sections
 
 section 
@@ -109,6 +80,16 @@ section
 section.padded
     padding-top: 2rem
     padding-bottom: 2rem
+
+
+section.uber
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    padding: 4rem
+    background: $off_black
 
 
 section.banner.main
@@ -158,6 +139,57 @@ section.footer
     a
         color: $white
         text-decoration: none !important
+
+
+// wrappers
+
+.content-wrapper,
+    
+    max-width: $max_width
+    margin: auto
+    padding: 1em
+
+    &.squashed
+        padding-top: 0
+        padding-bottom: 0
+
+    &.unlimited 
+        max-width: 100%
+        width: auto
+
+
+// layout components
+
+.cell-parent
+    display: table
+    background: tan
+
+.cell-child
+    display: table-cell
+    vertical-align: middle
+
+.display-table
+    display: table
+    height: 100%
+    width: 100%
+    // background: tan
+
+.display-row
+    display: table-row
+    height: 100%
+    // background: $teal
+
+.display-cell
+    text-align: center
+    display: table-cell
+    vertical-align: middle
+    // background: $yellow
+
+
+// components
+
+// buttons
+ 
 
 // images
 

@@ -1,6 +1,18 @@
 <?php include('static/partials/header.php'); ?>
 
-<!-- header -->
+<section class="uber">
+
+    <div class="display-table">
+        <div class="display-row">
+            <div class="display-cell">
+                this is content
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--
 <section class="banner main">
 
     <div class="banner-main-inner-wrapper">
@@ -21,15 +33,8 @@
     </div>
 
 </section>
-<!-- / header banner -->
+-->
 
-<section class="padded">
-<div class="content-wrapper">
-
-    Welcome to my world
-
-</div>
-</section>
-
-<?php include('static/partials/footer.php'); ?>
+</body>
+</html>
 
