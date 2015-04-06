@@ -211,10 +211,20 @@ section.footer
 .inkwell
     width: auto
     padding: 2rem 4rem
-    background: $off_black
-    border: 4px solid #444
+    background: $black
+    border: 4px solid $black
     margin-bottom: 6rem
     margin-top: 6rem
+    position: relative
+
+    &:before
+        content: ""
+        position: absolute
+        top: 0
+        bottom: 0
+        left: 0
+        right: 0
+        border: 1px solid $off_white
 
     h2
         font-size: 3rem
