@@ -9,7 +9,7 @@
     <div class="display-row" style="height: 100%;">
         <div class="display-cell">
             <h2 class="tagline">
-                As unqiue as the <br class="hide-from-mobile"> Tribeca Film Festival
+                As unique as the <br class="hide-from-mobile"> Tribeca Film Festival
             </h2>
             <a class="learn-more" href="/vdka6100">
                 Find Out More &raquo;
