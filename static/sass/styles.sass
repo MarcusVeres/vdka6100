@@ -61,7 +61,7 @@ h1
         font-weight: 700
         margin-bottom: 4rem
 
-h2
+h2,
     font-size: 2.4rem
     line-height: 2.6rem
 
@@ -85,6 +85,14 @@ h3
         padding-bottom: 1.8rem
         margin-top: 4rem
 
+    &.title
+        font-size: 2.3rem
+        line-height: 2.6rem
+        font-weight: 100
+        color: $off_black
+        text-transform: uppercase
+        margin-bottom: 2rem
+
 p
     color: $off_black
 
@@ -93,6 +101,12 @@ p
         // padding-right: 2rem
         font-size: 1.8rem
         line-height: 2.7rem
+
+
+// properties
+
+.centered 
+    text-align: center
 
 
 // navigation
@@ -260,7 +274,6 @@ section.footer
 
 .cell-parent
     display: table
-    background: tan
 
 .cell-child
     display: table-cell
@@ -363,17 +376,20 @@ section.footer
 
 
 .lightbox-close
-    color: #7D7D7D
     padding: 1rem
     float: right
-    font-size: 2rem
+    font-size: 3.2rem
+    color: $light_gray
     z-index: 1000
-    background: $purple
-    color: $white
     cursor: pointer
     position: absolute
     right: 0
     top: 0
+    transition: all 0.3s ease-in-out
+
+    &:hover
+        color: $off_white
+        background: $off_black
 
 
 // buttons
@@ -398,6 +414,57 @@ section.footer
 .checkbox
     color: $light_gray
     font-weight: 100 
+
+
+// forms
+
+.block-form
+    margin-top: 4rem
+    margin-bottom: 5rem
+
+    .form-row
+        float: left
+        margin: 0.2rem 0 0.5rem 0
+        clear: both
+        width: 100%
+
+    .input_50
+        width: 49.4%
+        float: left
+
+        &.right
+            float: right
+
+    .input_100
+        width: 100% 
+        float: left
+
+    .input_50,
+    .input_100
+
+        input[type=text],
+        input[type=email],
+        textarea
+            background: #EEE
+            color: $off_black
+            text-transform: uppercase
+            border: none
+            @include border-radius( 0 )
+            @include grayscale-shadow( 0 , 0 )
+
+        textarea
+            min-height: 64px
+
+    button[type=submit]
+        background: $black
+        color: $white
+        width: 49%
+        padding: 1rem
+        font-size: 1.6rem
+        font-weight: 100
+        text-transform: uppercase
+        @include border-radius( 0 )
+        @include grayscale-shadow( 0 , 0 )
 
 
 // images

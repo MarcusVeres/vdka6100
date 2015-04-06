@@ -1,14 +1,53 @@
 <section class="lightbox dark padded">
 <div class="content-wrapper">
 
-    <h2 class="tagline centered black">
+    <h3 class="title centered">
         Get in Touch
-    </h2>
+    </h3>
 
-    <div class="block-form">
+    <div class="block-form-wrapper">
+        <form class="block-form" action="static/partials/process-form.php" method="POST">
 
-        
+            <div class="form-row">
+                <div class="input_50">
+                    <input type="text" class="form-control" name="first_name" id="first_name" placeholder="first name"> 
+                </div>
+                <div class="input_50 right">
+                    <input type="text" class="form-control" name="last_name" id="last_name" placeholder="last name"> 
+                </div>
+            </div>
 
+            <div class="form-row">
+                <div class="input_100">
+                    <input type="text" class="form-control" name="email" id="email" placeholder="email"> 
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="input_50">
+                    <input type="text" class="form-control" name="postal_code" id="postal_code" placeholder="postal code"> 
+                </div>
+                <div class="input_50 right">
+                    <input type="text" class="form-control" name="phone" id="phone" placeholder="phone"> 
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="input_100">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="subject"> 
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="input_100">
+                    <textarea class="form-control" name="message" id="message" placeholder="message"></textarea> 
+                </div>
+            </div>
+
+            <button type="submit" class="btn block black">
+                Send
+            </button>
+        </form>
     </div>
 
     <!--
@@ -35,11 +74,11 @@
     </div>
     -->
 
-    <h2 class="tagline centered black">
+    <h3 class="title centered">
         Press Inquiries
-    </h2>
+    </h3>
 
-    <p class="">
+    <p class="centered">
         Sandy Han, Media Maison 212-799-6100 email
     </p>
 

@@ -3,7 +3,7 @@
         <div class="modal-content">
             <!-- because our close button is outside of a header, we have to add our own code to close the modal -->
             <div class="lightbox-close" data-dismiss-target="#basicModal" aria-hidden="true">
-                <i class="fa fa-fw fa-close"></i>
+                <i class="fa fa-fw fa-times-circle-o"></i>
             </div>
             <div class="modal-body">
                 <?php include('static/partials/contact-form.php'); ?>
