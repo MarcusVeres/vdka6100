@@ -40,7 +40,7 @@
     <div class="banner-main-inner-wrapper">
     <div class="banner-main-inner-content">
 
-        <div class="content-wrapper unlimited">
+        <div class="content-wrapper tight">
 
             <h2 class="tagline">
                 The best place for us to launch VDKA6100 is Tribeca.
@@ -58,7 +58,7 @@
 <div class="content-wrapper text bg-off-white">
 
     <div class="inkwell">
-        <h2 class="tagline">
+        <h2>
             &quot;Almost two years ago, James Packer asked me if I would like to help him develop and market a new vodka brand.&quot;
         </h2>
     </div>

@@ -23,7 +23,7 @@ html, body
     margin: 0
 
 body
-    font-family: 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif
+    font-family: 'Roboto', 'Helvetica Neue', 'Arial', sans-serif
     font-weight: 400
     color: $text_color
     padding-top: 60px
@@ -45,15 +45,7 @@ body
 
 h1, h2, h3, h4, h5, h6
     font-weight: 100
-    font-family: 'Roboto', 'Helvetica Neue', 'Arial', sans-serif
-
-h1,h2
-    color: $purple
-    padding-bottom: 2.8rem
-    padding-top: 2rem
-    font-weight: 300
-    font-weight: 400
-    font-weight: 700
+    font-family: 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif
 
 h1
     font-size: 3rem
@@ -70,10 +62,11 @@ h2
 
 h2.tagline
     font-size: 3rem
+    line-height: 3.6rem
     font-weight: 100
     color: $off_white
     text-transform: uppercase
-
+    max-width: 320px
 
 p
     color: $off_black
@@ -185,6 +178,8 @@ section.footer
         max-width: 840px
         padding: 4rem 10rem 6rem 10rem
 
+    &.tight
+        max-width: 720px
 
 // layout components
 
@@ -224,7 +219,11 @@ section.footer
     margin-bottom: 6rem
     margin-top: 6rem
 
-    h2.tagline
+    h2
+        font-size: 3rem
+        font-weight: 100
+        color: $off_white
+        text-transform: uppercase
         line-height: 4rem
         text-align: center
 
