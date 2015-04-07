@@ -29,6 +29,11 @@
         </h2>
     </div>
 
+    <!-- the map -->
+    <div class="map-wrapper">
+        <div id="map-canvas"></div>
+    </div>
+
     <div class="row">
         <div class="col-xs-12">
 
