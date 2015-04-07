@@ -29,7 +29,7 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
     <!-- scripts -->
-    <script src="assets/js/scripts.js"></script>
+    <script src="static/js/scripts.js"></script>
 
 </head>
 <body>
