@@ -324,7 +324,7 @@ section.footer
 
 .inkwell
     width: auto
-    padding: 2rem 4rem 2rem 4.6rem
+    padding: 2rem 4rem 2.6rem 4rem
     background: $black
     border: 4px solid $black
     margin-bottom: 6rem
@@ -378,8 +378,8 @@ section.footer
 .map-wrapper
     width: 100%
     height: 400px
-    background: $light_gray
-    padding: 0.4rem
+    background: #EEE
+    padding: 0.2rem
 
 #map-canvas
     width: 100%
@@ -455,12 +455,6 @@ section.footer
     font-weight: 100 
 
 
-// tables
-
-table.locations
-    margin: 5rem 0 0 0 
-
-
 // forms
 
 .block-form
@@ -528,7 +522,8 @@ table.locations
 .locations
     @include unstyled-list()
     padding: 2rem
-    font-size: 1.7rem
+    font-size: 1.4rem
+    margin: 5rem 0 0 0 
 
     li
         margin: 0.5rem 0
@@ -610,17 +605,12 @@ hr.hairline
 // default table styles
 
 table
-
     width: 100%
 
     tr
-        transition: all 0.3s ease-in-out
 
         &:nth-child(2n)
             background: #f9f9f9
-        &:hover
-            background: $black
-            color: $off_white
 
     td
         padding: 0.4rem
