@@ -1,5 +1,7 @@
 <?php include('static/partials/header.php'); ?>
 
+<?php include('static/partials/main-navigation.php'); ?>
+
 <section class="padded centered">
 <div class="content-wrapper">
 
