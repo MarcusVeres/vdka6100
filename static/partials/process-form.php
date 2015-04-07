@@ -15,11 +15,7 @@
     // 
     $recipient = "marcus.veres@gmail.com";
     $subject_line = $subject;
-    // $mail_header = "From: contact_form@vdka6100.com \r\n";
-    $mail_header = "From: contact_form@capensis.ca \r\n";
-
-    //
-
+    $mail_header = "From: contact_form@vdka6100.com \r\n";
 
     mail($recipient, $subject_line, $form_content, $mail_header) or die("Error!");
 
