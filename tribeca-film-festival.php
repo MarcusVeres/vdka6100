@@ -111,7 +111,7 @@
         </h2>
     </div>
 
-    <img class="poster" src="/assets/img/tff-sweepstakes.jpg" alt="TFF Sweepstakes" />
+    <img class="poster" src="/assets/img/new-sweepstakes.jpg" alt="TFF Sweepstakes" />
 
     <div class="inkwell teal">
         <h2>
