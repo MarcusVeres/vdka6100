@@ -35,10 +35,10 @@
     <div class="row">
         <div class="col-xs-12">
             <p class="copy">
-                Made with natural spring water from Reporoa, New Zealand. VDKA 6100 is distilled three times and filtered through a bed of carbon to eliminate all impurities. The result is a clean, light exceptionally smooth taste with hints of floral and citrus notes.
+                Made with fresh seasonal whey and natural spring water from Reporoa, New Zealand.  VDKA 6100 is distilled three times and filtered through a bed of carbon to eliminate all impurities.  The result is a clean, light exceptionally smooth taste with hints of floral and citrus notes.  
             </p>
             <p class="copy">
-                VDKA 6100 is a remarkably pure vodka that is gluten-free, sugar-free and lactose-free and its base has one of the lowest methanol counts in the world. 
+                VDKA 6100 is a remarkably pure vodka that is gluten-free, sugar-free and lactose-free and its base has one of the lowest methanol counts in the world.
             </p>
         </div>
     </div>
