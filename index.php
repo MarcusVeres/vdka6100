@@ -19,7 +19,7 @@
                             Over 21
                         </button>
                     </a>
-                    <a href="https://www.youtube.com/watch?v=M5QGkOGZubQ">
+                    <a href="https://responsibility.org">
                         <button class="btn line">
                             Under 21
                         </button>
