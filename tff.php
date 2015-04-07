@@ -43,8 +43,35 @@
                 $json = json_decode($json);
             ?>
 
-            <ul class="locations">
+            <!-- the table approach -->
+            <table class="locations">
+                <?php foreach($json as $obj): ?>
 
+                    <tr>
+                        <td class="strong">
+                            <?php echo $obj->name; ?>
+                        </td>
+                        <td>
+                            <?php echo $obj->address; ?>
+                        </td>
+                        <td>
+                            <?php echo $obj->tel; ?>
+                        </td>
+                        <td class="map">
+                            <a href="<?php echo $obj->map_url; ?>" target="_blank" >
+                                MAP
+                            </a>
+                        </td>
+                    </tr>
+
+                <?php endforeach; ?>
+            </table>
+            <!-- the table approach -->
+
+
+            <!-- the list approach -->
+            <!--
+            <ul class="locations">
                 <?php foreach($json as $obj): ?>
 
                     <li>
@@ -65,8 +92,9 @@
                     </li>
 
                 <?php endforeach; ?>
-
             </ul>
+            -->
+            <!-- the list approach -->
 
         </div>
     </div>
