@@ -43,17 +43,17 @@
 
                 <ul class="sitemap social">
                     <li>
-                        <a href="http://twitter.com" target="_blank">
+                        <a href="http://instagram.com/vdka6100" target="_blank">
                             <i class="fa fa-fw fa-instagram"></i> 
                         </a>
                     </li>
                     <li>
-                        <a href="http://twitter.com" target="_blank">
+                        <a href="http://facebook.com/VDKA6100" target="_blank">
                             <i class="fa fa-fw fa-facebook"></i> 
                         </a>
                     </li>
                     <li>
-                        <a href="http://twitter.com" target="_blank">
+                        <a href="http://twitter.com/VDKA6100" target="_blank">
                             <i class="fa fa-fw fa-twitter"></i> 
                         </a>
                     </li>
