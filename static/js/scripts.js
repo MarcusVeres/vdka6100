@@ -28,7 +28,7 @@
     {
         // configure the map
         var mapOptions = {
-            center: new google.maps.LatLng( 43.67 , -79.36 ),
+            center: new google.maps.LatLng( 40.716269 , -74.008632 ),
             zoom: 12,
             // styles: style
         };
