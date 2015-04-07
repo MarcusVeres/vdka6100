@@ -41,6 +41,7 @@
                 $root = $_SERVER['DOCUMENT_ROOT'];
                 $json = file_get_contents( $root . '/assets/data/locations.json' );
                 $json = json_decode($json);
+                $index = 1;
             ?>
 
             <!-- the table approach -->
@@ -48,6 +49,9 @@
                 <?php foreach($json as $obj): ?>
 
                     <tr>
+                        <td>
+                            <?php echo $index; ?>
+                        </td>
                         <td class="strong">
                             <?php echo $obj->name; ?>
                         </td>
@@ -63,6 +67,8 @@
                             </a>
                         </td>
                     </tr>
+
+                <?php $index++; ?>
 
                 <?php endforeach; ?>
             </table>
