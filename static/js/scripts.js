@@ -36,8 +36,6 @@
         // draw the map on the map canvas dom element
         var map = new google.maps.Map( document.getElementById("map-canvas") , mapOptions);
 
-        return;
-
         // create infowindow object
         var infowindow = new google.maps.InfoWindow();
 
@@ -54,6 +52,9 @@
                 // pointer , so to speak
                 var index = index_value;
 
+                // order number ( appears on list )
+                var order = index + 1;
+
                 // this is the individual data item - in our case, the restaurant
                 var item = data[index];
 
@@ -65,6 +66,7 @@
                     position: coordinates,
                     map: map,
                     // icon: '/static/img/map_marker.png',
+                    icon: 'http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=' + order + '|FE6256|000000',
                     title: item.address
                 });
 
