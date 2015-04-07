@@ -79,7 +79,10 @@
     </h3>
 
     <p class="centered">
-        Sandy Han, Media Maison 212-799-6100 email
+        Sandy Han, Media Maison <br> 
+        212-799-6100 
+        <span class="light-gray">|</span>
+        <a href="mailto:sandy@mediamaison">email</a>
     </p>
 
 </div>
