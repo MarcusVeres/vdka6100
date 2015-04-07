@@ -128,6 +128,8 @@
         </li>
     </ol>
 
+    <hr class="hairline">
+
     <p class="copy">
         &copy; 2014 Artisan Spirits Merchants USA, New York, NY.
     </p>
