@@ -14,9 +14,51 @@
 
             </div>
 
-            <div class="display-cell">
-
+            <!-- main menu -->
+            <div class="display-cell hide-from-mobile">
                 <ul class="main-menu">
+                    <li>
+                        <a href="/vdka6100">
+                            VDKA 6100
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/vision">
+                            The Vision
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/tribeca-film-festival">
+                            Tribeca Film Festival
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#basicModal">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- mobile menu -->
+            <div class="display-cell hide-from-desktop">
+                <div id="nav-menu-toggle">
+                    <i id="nav-menu-icon" class="fa fa-fw fa-bars"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- mobile navigation wrapper -->
+    <div id="nav-menu-close-trigger"></div>
+
+    <!-- the navigation menu -->
+    <div id="nav-menu-overlay">
+        <div class="cell-parent">
+            <div class="cell-child centered">
+
+                <ul class="">
                     <li>
                         <a href="/vdka6100">
                             VDKA 6100
@@ -40,7 +82,6 @@
                 </ul>
 
             </div>
-
         </div>
     </div>
 

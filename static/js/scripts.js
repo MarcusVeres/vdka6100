@@ -134,8 +134,45 @@
     }; // end draw map
 
 
+    // our navigation menu on mobile devices
+
+    function toggle_mobile_nav_menu()
+    {
+        // hide the overlay wrapper hit area
+        $('#nav-menu-close-trigger').slideToggle(350);
+
+        // console.log("toggling the menu");
+        $('#nav-menu-overlay').animate({width:'toggle'},350);
+
+        // toggleIcon
+        var icon = $('#nav-menu-icon');
+        if( icon.hasClass('fa-bars'))
+        {
+            icon.removeClass('fa-bars');
+            icon.addClass('fa-close');
+        } else
+        {
+            icon.removeClass('fa-close');
+            icon.addClass('fa-bars');
+        }
+    }
+
+
     // once everything has been loaded, we can have our fun
     $(document).ready(function(){
+
+        // nav
+
+        // empower the hamburger to toggle the menu
+        $('#nav-menu-toggle').on('tap click', function(){
+            toggle_mobile_nav_menu();
+        });
+
+        // if the user clicks on-screen off of the menu, close it
+        $('#nav-menu-close-trigger').on('tap click', function(){
+            toggle_mobile_nav_menu();
+        });
+
 
         // modals
 
@@ -144,6 +181,18 @@
             var target = clicked.attr('data-dismiss-target');
             $( target ).modal('hide');
         });
+
+
+        // for later
+        /*
+        // hunt down svg images and replace them with png if the browser does not support png
+        if(!Modernizr.svg) {
+            $('img[src*="svg"]').attr('src', function() {
+                return $(this).attr('src').replace('.svg', '.png');
+            });
+        }
+        */
+
 
         // get the locations
         // TODO: check for element before doing this
