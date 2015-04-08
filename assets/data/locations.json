@@ -1,34 +1,186 @@
 [
     { 
-        "name" : "The Cricketer's Arms Trading Co.",
-        "address" : "57 Murray Street",
-        "tel" : "212.619.5550",
-        "latitude" : "40.714478",
-        "longitude" : "-74.009606",
-        "map_url" : "https://www.google.ca/maps/place/57+Murray+St,+New+York,+NY+10007,+USA/data=!4m2!3m1!1s0x89c25a1ed4ef2eff:0xea85dd5bda7a7f81?sa=X&ei=BP4hVeLOBsLvsAWfvYGQDw&ved=0CBwQ8gEwAA"
+        "name" : "The Gander",
+        "address" : "15 W 18th St, New York, NY 10011",
+        "tel" : "212-229-9500",
+        "latitude" : "40.739134",
+        "longitude" : "-73.992842",
+        "map_url" : "https://www.google.ca/maps/place/The+Gander/@40.739134,-73.992842,17z/data=!3m1!4b1!4m2!3m1!1s0x89c259a2e2145261:0x523b8d9c7d4d28ca?hl=en"
     },
-    { 
-        "name" : "De Claudio",
-        "address" : "21 Ann Street",
-        "tel" : "212.619.5550",
-        "latitude" : "40.710837",
-        "longitude" : "-74.007473",
-        "map_url" : "https://www.google.ca/maps/place/57+Murray+St,+New+York,+NY+10007,+USA/data=!4m2!3m1!1s0x89c25a1ed4ef2eff:0xea85dd5bda7a7f81?sa=X&ei=BP4hVeLOBsLvsAWfvYGQDw&ved=0CBwQ8gEwAA"
+    {
+        "name" : "The Crosy Street Hotel",
+        "address" : "79 Crosby St, New York, NY 10012",
+        "tel" : "212-226-6400",
+        "latitude" : "40.723033",
+        "longitude" : "-73.99741",
+        "map_url" : "https://www.google.ca/maps/place/Crosby+Street+Hotel/@40.723033,-73.99741,17z/data=!4m6!1m3!3m2!1s0x89c2598f292082a5:0xf8d559645cb0dd32!2sCrosby+Street+Hotel!3m1!1s0x89c2598f292082a5:0xf8d559645cb0dd32?hl=en"
     },
-    { 
-        "name" : "Maxwell's Bar & Grill",
-        "address" : "59 Reade Street",
-        "tel" : "212.619.5550",
-        "latitude" : "40.714701",
-        "longitude" : "-74.006580",
-        "map_url" : "https://www.google.ca/maps/place/57+Murray+St,+New+York,+NY+10007,+USA/data=!4m2!3m1!1s0x89c25a1ed4ef2eff:0xea85dd5bda7a7f81?sa=X&ei=BP4hVeLOBsLvsAWfvYGQDw&ved=0CBwQ8gEwAA"
+    {
+        "name" : "Locanda Verde",
+        "address" : "377 Greenwich St, New York, NY 10013",
+        "tel" : "212-925-3797",
+        "latitude" : "40.719923",
+        "longitude" : "-74.009923",
+        "map_url" : "https://www.google.ca/maps/place/Locanda+Verde/@40.719923,-74.009923,17z/data=!3m1!4b1!4m2!3m1!1s0x89c259f5852e694d:0x5bed69f7f928f84b?hl=en"
     },
-    { 
-        "name" : "Delicatessen",
-        "address" : "54 Prince Street",
-        "tel" : "212.619.5550",
-        "latitude" : "40.723460",
-        "longitude" : "-73.996312",
-        "map_url" : "https://www.google.ca/maps/place/57+Murray+St,+New+York,+NY+10007,+USA/data=!4m2!3m1!1s0x89c25a1ed4ef2eff:0xea85dd5bda7a7f81?sa=X&ei=BP4hVeLOBsLvsAWfvYGQDw&ved=0CBwQ8gEwAA"
+    {
+        "name" : "Il Mulino Trattoria",
+        "address" : "36 E 20th St, New York, NY 10003",
+        "tel" : "212-223-8848",
+        "latitude" : "40.73859",
+        "longitude" : "-73.988637",
+        "map_url" : "https://www.google.ca/maps/place/Trattoria+Il+Mulino/@40.73859,-73.988637,17z/data=!3m1!4b1!4m2!3m1!1s0x89c259a17f9e39d1:0xe5f5455fe41fb6c2?hl=en"
+    },
+    {
+        "name" : "Tribeca Grill",
+        "address" : "375 Greenwich St, New York, NY 10013",
+        "tel" : "212-941-3900",
+        "latitude" : "40.719603",
+        "longitude" : "-74.010035",
+        "map_url" : "https://www.google.ca/maps/place/Tribeca+Grill/@40.719603,-74.010035,17z/data=!3m1!4b1!4m2!3m1!1s0x89c259f587e83c47:0xf03e6fbe00747175?hl=en"
+    },
+    {
+        "name" : "Mother's Ruin",
+        "address" : "18 Spring St, New York, NY 10012",
+        "tel" : "N/A",
+        "latitude" : "40.721293",
+        "longitude" : "-73.995022",
+        "map_url" : "https://www.google.ca/maps/place/Mother's+Ruin/@40.721293,-73.995022,17z/data=!3m1!4b1!4m2!3m1!1s0x89c25988a149e263:0x7ea3c97ae958c117?hl=en"
+    },
+    {
+        "name" : "The Ship NYC",
+        "address" : "158 Lafayette St, New York, NY 10013",
+        "tel" : "212-219-8496",
+        "latitude" : "40.719826",
+        "longitude" : "-73.999523",
+        "map_url" : "https://www.google.ca/maps/place/The+Ship/@40.719826,-73.999523,17z/data=!3m1!4b1!4m2!3m1!1s0x89c2598999849643:0x45daa621e9a05fde?hl=en"
+    },
+    {
+        "name" : "Nobu",
+        "address" : "105 Hudson Street, New York, NY",
+        "tel" : "212-219-0500",
+        "latitude" : "40.719535",
+        "longitude" : "-74.008851",
+        "map_url" : "https://www.google.ca/maps/place/Nobu+New+York/@40.719535,-74.008851,15z/data=!4m5!1m2!2m1!1sNobu!3m1!1s0x89c259f57c82b37d:0xfd1e905b56ba90b5?hl=en"
+    },
+    {
+        "name" : "Conrad Hotel",
+        "address" : "102 North End Ave, New York, NY 10282",
+        "tel" : "212-945-0100",
+        "latitude" : "40.719535",
+        "longitude" : "-74.008851",
+        "map_url" : "https://www.google.ca/maps/place/Conrad+New+York/@40.719535,-74.008851,15z/data=!4m5!1m2!2m1!1sConrad+Hotel+!3m1!1s0x89c25a1b77ebc1fb:0xebfcac410239fc11?hl=en"
+    },
+    {
+        "name" : "Koi (Trump Hotel)",
+        "address" : "246 Spring Street, New York, NY 10013",
+        "tel" : "212-842-4550",
+        "latitude" : "40.725524",
+        "longitude" : "-74.005502",
+        "map_url" : "https://www.google.ca/maps/place/Koi+SoHo/@40.725524,-74.005502,17z/data=!3m1!4b1!4m2!3m1!1s0x89c2598cc4c0f07b:0x5125eda4e7170975?hl=en"
+    },
+    {
+        "name" : "The Palm",
+        "address" : "206 West Street, New York, NY 10282",
+        "tel" : "646-395-6393",
+        "latitude" : "40.716474",
+        "longitude" : "-74.012605",
+        "map_url" : "https://www.google.ca/maps/place/Palm/@40.716474,-74.012605,18z/data=!3m1!4b1!4m2!3m1!1s0x89c25a1c244cd2c9:0x9735423dc9d438ac?hl=en"
+    },
+    {
+        "name" : "Jimmy (James Hotel)",
+        "address" : "27 Grand Street, New York, NY 10013",
+        "tel" : "212-465-2000",
+        "latitude" : "40.722585",
+        "longitude" : "-74.004807",
+        "map_url" : "https://www.google.ca/maps/place/The+James+New+York/@40.722585,-74.004807,17z/data=!4m5!1m2!2m1!1sJimmy+(James+Hotel)+!3m1!1s0x0000000000000000:0xbab0658c753ead2b?hl=en"
+    },
+    {
+        "name" : "Dead Rabbit",
+        "address" : "30 Water St, New York, NY 10004",
+        "tel" : "646-422-7906",
+        "latitude" : "40.703256",
+        "longitude" : "-74.011006",
+        "map_url" : "https://www.google.ca/maps/place/The+Dead+Rabbit+Grocery+and+Grog/@40.703256,-74.011006,17z/data=!3m1!4b1!4m2!3m1!1s0x89c25a1469891821:0xea6b2acef790acd8?hl=en"
+    },
+    {
+        "name" : "Louie and Chan",
+        "address" : "303 Broome St, New York, NY 10002",
+        "tel" : "212-837-2816",
+        "latitude" : "40.718601",
+        "longitude" : "-73.992441",
+        "map_url" : "https://www.google.ca/maps/place/Louie+and+Chan/@40.718601,-73.992441,17z/data=!3m1!4b1!4m2!3m1!1s0x89c25c7b4755b33f:0xfcc2b504e12a3d31?hl=en"
+    },
+    {
+        "name" : "Lead Belly",
+        "address" : "14 Orchard street, New York, NY 10002",
+        "tel" : "646-596-9142",
+        "latitude" : "40.714938",
+        "longitude" : "-73.991648",
+        "map_url" : "https://www.google.ca/maps/place/The+Leadbelly+Oysters+%26+Liquor/@40.714938,-73.991648,17z/data=!3m1!4b1!4m2!3m1!1s0x89c25a29b5a73de5:0x13a3b71184089c66?hl=en"
+    },
+    {
+        "name" : "Raoul's",
+        "address" : "180 Prince Street, New York, NY 10012",
+        "tel" : "212-966-3518",
+        "latitude" : "40.726164",
+        "longitude" : "-74.002131",
+        "map_url" : "https://www.google.ca/maps/place/Raoul's/@40.726164,-74.002131,17z/data=!3m1!4b1!4m2!3m1!1s0x89c2598db62c4c05:0xed703546cbc36db1?hl=en"
+    },
+    {
+        "name" : "Rubirosa",
+        "address" : "235 Mulberry Street, New York, NY 10012",
+        "tel" : "212-965-0500",
+        "latitude" : "40.722768",
+        "longitude" : "-73.996138",
+        "map_url" : "https://www.google.ca/maps/place/Rubirosa+Ristorante/@40.722768,-73.996138,17z/data=!3m1!4b1!4m2!3m1!1s0x89c2598f361dc3b3:0xea0bcb0a8807f54c?hl=en"
+    },
+    {
+        "name" : "SoHo House",
+        "address" : "29-35 9th Ave, New York, NY 10014",
+        "tel" : "212-627-9800",
+        "latitude" : "40.740627",
+        "longitude" : "-74.00602",
+        "map_url" : "https://www.google.ca/maps/place/Soho+House+New+York/@40.740627,-74.00602,17z/data=!3m1!4b1!4m2!3m1!1s0x89c259bf8f892f43:0xb7ab74a7a2f7a806?hl=en"
+    },
+    {
+        "name" : "Macao Trading Co.",
+        "address" : "311 Church Street #1, New York, NY 10013",
+        "tel" : "212-431-8642",
+        "latitude" : "40.71963",
+        "longitude" : "-74.003939",
+        "map_url" : "https://www.google.ca/maps/place/Macao/@40.71963,-74.003939,17z/data=!3m1!4b1!4m2!3m1!1s0x89c2598a8cbdd403:0x855db0756c743165?hl=en"
+    },
+    {
+        "name" : "Stanton Social",
+        "address" : "99 Stanton Street, New York, NY 10002",
+        "tel" : "212-995-0099",
+        "latitude" : "40.721148",
+        "longitude" : "-73.9881",
+        "map_url" : "https://www.google.ca/maps/place/Stanton+Social/@40.721148,-73.9881,17z/data=!3m1!4b1!4m2!3m1!1s0x89c25981578b251d:0x2bd1cc24dba9dc84?hl=en"
+    },
+    {
+        "name" : "Beauty & Essex",
+        "address" : "146 Essex Street, New York, NY 10002",
+        "tel" : "212-614-0146",
+        "latitude" : "40.720411",
+        "longitude" : "-73.986896",
+        "map_url" : "https://www.google.ca/maps/place/Beauty+%26+Essex/@40.720411,-73.986896,17z/data=!3m1!4b1!4m2!3m1!1s0x89c259816f936025:0x521cae9480c7ee2d?hl=en"
+    },
+    {
+        "name" : "No.8",
+        "address" : "357 W 16th Street, New York, NY 10011",
+        "tel" : "212-202-1096",
+        "latitude" : "40.742214",
+        "longitude" : "-74.003578",
+        "map_url" : "https://www.google.ca/maps/place/No.+8/@40.742214,-74.003578,17z/data=!3m1!4b1!4m2!3m1!1s0x89c259bf2114bf37:0xb1e34369a1c4a6fd?hl=en"
+    },
+    {
+        "name" : "Whitehall",
+        "address" : "19 Greenwich Ave, New York, NY 10014",
+        "tel" : "212-675-7261",
+        "latitude" : "40.734479",
+        "longitude" : "-74.000015",
+        "map_url" : "https://www.google.ca/maps/place/Whitehall/@40.734479,-74.000015,17z/data=!3m1!4b1!4m2!3m1!1s0x89c259969a5c2a1f:0x649413e90c2abf97?hl=en"
     }
 ]
