@@ -16,7 +16,7 @@
         ASM, at its sole discretion, and at any time, reserves the right to modify, amend, change, add, suspend, cancel, or remove any portions, features or content of the Site, or these Terms and Conditions. By using the Site, you agree to be bound by any such revisions.
     </p>
 
-    <ol class="legal">
+    <ol class="copy">
         <li>
             <h3 class="copy">
                 AGE RESTRICTION

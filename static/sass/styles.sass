@@ -123,11 +123,13 @@ p
     &.copy
         font-size: 1.8rem
         line-height: 2.7rem
+        font-weight: 300
 
         @media screen and (max-width: $small_breakpoint)
             font-size: 1.45rem
             line-height: 2.3rem
             margin-bottom: 2rem
+            font-weight: 400
 
 a
     &:hover
@@ -765,8 +767,25 @@ section.footer
 
 // lists
 
-.legal
+ol.copy
+    font-weight: 700
     margin-bottom: 6rem
+
+    p
+
+        font-weight: 300
+
+    ul
+        margin: 3rem 0
+        font-weight: 400
+
+        li
+            margin: 1rem 0.6rem
+
+    @media screen and (max-width: 640px)
+
+        p
+            font-weight: 400
 
 
 .locations
@@ -862,6 +881,7 @@ section.footer
             padding: 2rem
             text-align: center
             margin: auto
+            width: auto
 
         &.legal
 

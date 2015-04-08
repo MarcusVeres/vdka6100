@@ -16,7 +16,7 @@
         ASM, at its sole discretion, and at any time, reserves the right to modify, amend, change, aspects of the Privacy Policy at any time. By using the Site, you agree to be bound by any such revisions.
     </p>
 
-    <ol>
+    <ol class="copy">
         <li>
             <h3 class="copy"> 
                 AGE RESTRICTION

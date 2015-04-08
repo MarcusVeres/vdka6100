@@ -25,7 +25,7 @@
 
     <div class="inkwell teal">
         <h2>
-            Find the perfect spot to enjoy VDKA 6100
+            Find the perfect spot <br class="hide-from-mobile">to enjoy VDKA 6100
         </h2>
     </div>
 
