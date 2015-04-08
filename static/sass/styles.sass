@@ -115,7 +115,8 @@ p
 
         @media screen and (max-width: $small_breakpoint)
             font-size: 1.45rem
-            line-height: 2rem
+            line-height: 2.3rem
+            margin-bottom: 2rem
 
 a
     &:hover
@@ -247,11 +248,8 @@ nav
         text-transform: uppercase
         transition: all 0.3s ease-in-out
 
-        // only do a hover effect on non-mobile devices.. because "consistency"... :/
-        @media screen and (min-width: 640px)
-
-            &:hover
-                color: $white
+        &:hover
+            color: $white
 
         // smaller text on small devices
         @media screen and (max-width: 480px)
