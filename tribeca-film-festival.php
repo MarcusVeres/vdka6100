@@ -116,7 +116,9 @@
         </h2>
     </div>
 
-    <img class="poster" src="/assets/img/new-sweepstakes.jpg" alt="TFF Sweepstakes" />
+    <a href="http://facebook.com/VDKA6100" target="_blank">
+        <img class="poster" src="/assets/img/sweepstakes.jpg" alt="TFF Sweepstakes" />
+    </a>
 
     <div class="inkwell teal">
         <h2>
