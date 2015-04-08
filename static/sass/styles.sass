@@ -389,6 +389,7 @@ section.footer
     padding-top: 1.4rem
     padding-bottom: 3rem
     margin-bottom: 8rem
+    position: relative
 
     @media screen and (max-width: 768px)
         margin-bottom: 0
@@ -778,8 +779,10 @@ section.footer
             color: $off_white
 
     &.social
-        float: right
         font-size: 2.4rem
+        float: right
+        width: 18%
+        text-align: right
 
         li
             display: inline-block
@@ -787,8 +790,12 @@ section.footer
     &.legal
         font-weight: 700
         text-transform: uppercase
+        width: 28%
+        float: left
 
     &.disclaimers
+        width: 48%
+        float: left
 
         li
             transition: all 0.4s ease-in-out
@@ -796,10 +803,26 @@ section.footer
 
     @media screen and (max-width: $narrow_breakpoint)
 
-        float: none
-        padding: 2rem
-        text-align: center
-        
+        &.social,
+        &.legal,
+        &.disclaimers
+            float: none
+            padding: 2rem
+            text-align: center
+            margin: auto
+
+        &.legal
+
+            li
+                font-size: 1.4rem
+                margin: 0.6rem 0
+
+        &.disclaimers
+
+            li
+                font-size: 1.1rem
+                margin: 0.4rem 0
+
 
 // horizontal rules
 
