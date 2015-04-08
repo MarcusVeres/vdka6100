@@ -607,6 +607,15 @@ section.footer
             color: $white    
 
 
+.contact
+
+    a
+        color: $dark_gray
+
+        &:hover
+            color: $dark_gray
+
+
 // map
 
 .map-wrapper
@@ -641,7 +650,7 @@ section.footer
 // modal window
 
 .modal
-    background: rgba( 12 , 12 , 12 , 0.6 )
+    background: rgba( 12 , 12 , 12 , 0.8 )
 
 
 .modal-dialog
@@ -724,7 +733,6 @@ section.footer
         textarea
             background: #EEE
             color: $off_black
-            text-transform: uppercase
             border: none
             @include border-radius( 0 )
             @include grayscale-shadow( 0 , 0 )
@@ -742,6 +750,22 @@ section.footer
         text-transform: uppercase
         @include border-radius( 0 )
         @include grayscale-shadow( 0 , 0 )
+
+
+    // placeholders
+
+    ::-webkit-input-placeholder 
+        text-transform: uppercase
+    
+    :-moz-placeholder 
+        text-transform: uppercase  
+    
+    ::-moz-placeholder 
+        text-transform: uppercase  
+    
+    :-ms-input-placeholder   
+        text-transform: uppercase  
+    
 
 
 // images

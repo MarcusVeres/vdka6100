@@ -50,39 +50,24 @@
         </form>
     </div>
 
-    <!--
-    <div class="row">
-        <div class="col-xs-12 col-sm-6 col-sm-offset-3">
-
-            <form class="contact-form" action="static/partials/process.php" method="POST">
-                <div class="form-group">
-                    <label for="name">Full Name</label>
-                    <input type="text" class="form-control" name="contact_name" id="contact_name" placeholder="Jane Doe">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email Address</label>
-                    <input type="email" class="form-control" name="contact_email" id="contact_email" placeholder="your.name@mail.com">
-                </div>
-                <div class="form-group">
-                    <label for="email">Message</label>
-                    <textarea class="form-control" name="contact_message" id="contact_message" placeholder="Message"></textarea>
-                </div>
-                <button type="submit" class="btn btn-default">Submit</button>
-            </form>
-
-        </div>
-    </div>
-    -->
-
     <h3 class="title centered">
         Press Inquiries
     </h3>
 
-    <p class="centered">
+    <p class="centered contact">
+
         Sandy Han, Media Maison <br> 
-        212-799-6100 
+
+        <a href="tel:212-799-6100">
+            212-799-6100  
+        </a>
+
         <span class="light-gray">|</span>
-        <a href="mailto:sandy@mediamaison">email</a>
+
+        <span class="strong">
+            <a href="mailto:sandy@mediamaison">email</a>
+        </span>
+
     </p>
 
 </div>
