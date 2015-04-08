@@ -12,6 +12,13 @@
 // @import 'overrides' // overrides theme-specific , e.g. bootstrap
 
 
+// some vars to put into another file
+
+$small_breakpoint: 540px
+$mobile_breakpoint: 768px
+$narrow_breakpoint: 992px
+
+
 // -----------------------------------------
 // html elements
 
@@ -88,6 +95,9 @@ h3
         padding-bottom: 1.8rem
         margin-top: 4rem
 
+        @media screen and (max-width: $small_breakpoint)
+            font-size: 1.5rem
+
     &.title
         font-size: 2.3rem
         line-height: 2.6rem
@@ -102,6 +112,10 @@ p
     &.copy
         font-size: 1.8rem
         line-height: 2.7rem
+
+        @media screen and (max-width: $small_breakpoint)
+            font-size: 1.45rem
+            line-height: 2rem
 
 a
     &:hover
@@ -288,6 +302,15 @@ section.banner.main
     &.full
         height: 95%
 
+@media screen and (max-width: $small_breakpoint)
+
+    .banner-main-inner-wrapper
+
+        h2.tagline
+            text-align: center
+            font-weight: 600
+            @include text-shadow()
+
 
 section.banner.rdn
     background-image: url('/assets/img/rdn.jpg')
@@ -473,6 +496,8 @@ section.footer
         margin-bottom: 2.4rem
         margin-top: 1.8rem
 
+        h2
+            font-size: 2.1rem
 
 .agreement-wrapper
     border-top: 1px solid rgba( 255 , 255 , 255 , 0.4 )
