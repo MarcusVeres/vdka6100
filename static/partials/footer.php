@@ -1,6 +1,6 @@
 
 <section class="footer">
-    <div class="content-wrapper flush">
+    <div class="content-wrapper flush wide">
 
         <div class="row">
             <div class="col-xs-12 col-sm-6">

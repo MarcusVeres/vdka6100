@@ -67,7 +67,7 @@ h1
         font-weight: 600
         margin-bottom: 4rem
 
-h2,
+h2
     font-size: 2.4rem
     line-height: 2.6rem
 
@@ -78,6 +78,11 @@ h2,
         color: $off_white
         text-transform: uppercase
         max-width: 320px
+        @include text-shadow()
+
+        @media screen and (max-width: 768px)
+            max-width: none
+
 
         &.right
             text-align: right
@@ -300,14 +305,11 @@ section.banner.main
     &.full
         height: 95%
 
-@media screen and (max-width: $small_breakpoint)
+@media screen and (max-width: $mobile_breakpoint)
 
-    .banner-main-inner-wrapper
-
-        h2.tagline
-            text-align: center
-            font-weight: 600
-            @include text-shadow()
+    h2.tagline
+        text-align: center
+        font-weight: 600
 
 
 section.banner.rdn
@@ -331,6 +333,13 @@ section.banner.home
 
     .tagline
         width: 35%
+
+    @media screen and (max-width: 768px)
+        text-align: center
+        
+        .tagline
+            width: auto
+
 
 section.uber
     position: absolute
@@ -372,11 +381,11 @@ section.footer
         margin-bottom: 0
         padding-top: 2rem
 
-    .col-xs-12
-        padding: 0
-        margin: 0
-        width: auto
-        float: none
+        .col-xs-12
+            padding: 0
+            margin: 0
+            width: auto
+            float: none
        
 
 // wrappers
@@ -408,6 +417,8 @@ section.footer
         @media screen and (max-width: 400px)
             padding: 2.1rem 2.1rem 3rem 2.1rem 
 
+    &.wide
+        max-width: 1140px
 
     &.tight
         max-width: 720px
@@ -440,15 +451,33 @@ section.footer
     vertical-align: middle
     // background: $yellow
 
+.presentation-table
+    height: 100%
+    padding: 0 12%
+    max-width: 1140px
+    margin: auto
+
 
 // components
+
+
+.top-center-holder
+    text-align: center
+    padding-top: 5rem
+
+.age-verification
+
+    @media screen and (max-width: 640px)
+        text-align: center 
+
 
 .center-float
     position: absolute
     bottom: 0
     left: 50%
     margin-left: -88px
-    margin-bottom: -15px
+    // margin-bottom: -15px
+    margin-bottom: 15px
 
 
 .learn-more
@@ -456,6 +485,10 @@ section.footer
     text-transform: uppercase
     color: $off_white
     font-weight: 700
+    @include text-shadow()
+
+    &:hover
+        color: $off_white
 
 
 .inkwell
@@ -718,19 +751,16 @@ section.footer
         &:hover
             color: $off_white
 
-
     &.social
         float: right
         font-size: 2.4rem
 
         li
             display: inline-block
-
     
     &.legal
         font-weight: 700
         text-transform: uppercase
-
 
     &.disclaimers
 
@@ -738,9 +768,9 @@ section.footer
             transition: all 0.4s ease-in-out
             
 
-    @media screen and (max-width: 600px)
+    @media screen and (max-width: $narrow_breakpoint)
 
-        float: none !important
+        float: none
         padding: 2rem
         text-align: center
         

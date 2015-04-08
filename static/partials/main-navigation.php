@@ -1,5 +1,5 @@
 <nav>
-<div class="content-wrapper">
+<div class="content-wrapper wide">
 
     <div class="display-table">
         <div class="display-row">

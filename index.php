@@ -6,7 +6,13 @@
 
         <img class="logo" src="/assets/img/logo.png" />
 
-        <div class="display-row" style="height: 100%;">
+        <div class="display-row">
+            <div class="display-cell hide-from-desktop top-center-holder">
+                <img src="/assets/img/bottle.png" />
+            </div>
+        </div>
+
+        <div class="display-row age-verification" style="height: 100%;">
             <div class="display-cell">
 
                 <h2 class="tagline wide">
@@ -31,7 +37,7 @@
                 </div>
 
             </div>
-            <div class="display-cell" style="width: 40%">
+            <div class="display-cell hide-from-mobile" style="width: 40%">
                 <img src="/assets/img/bottle.png" />
             </div>
         </div>
