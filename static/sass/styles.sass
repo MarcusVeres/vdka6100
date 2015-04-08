@@ -347,6 +347,16 @@ section.footer
     padding-bottom: 3rem
     margin-bottom: 8rem
 
+    @media screen and (max-width: 768px)
+        margin-bottom: 0
+        padding-top: 2rem
+
+    .col-xs-12
+        padding: 0
+        margin: 0
+        width: auto
+        float: none
+       
 
 // wrappers
 
@@ -370,6 +380,13 @@ section.footer
     &.text
         max-width: 840px
         padding: 3.2rem 10rem 6rem 10rem
+
+        @media screen and (max-width: 640px)
+            padding: 2.1rem 5rem 3rem 5rem 
+
+        @media screen and (max-width: 400px)
+            padding: 2.1rem 2.1rem 3rem 2.1rem 
+
 
     &.tight
         max-width: 720px
@@ -450,6 +467,11 @@ section.footer
     &.teal
         background: $teal
         border: 4px solid $teal
+
+    @media screen and (max-width: 640px)
+        padding: 1rem 2rem 1.6rem 2rem
+        margin-bottom: 2.4rem
+        margin-top: 1.8rem
 
 
 .agreement-wrapper
@@ -692,6 +714,13 @@ section.footer
         li
             transition: all 0.4s ease-in-out
             
+
+    @media screen and (max-width: 600px)
+
+        float: none !important
+        padding: 2rem
+        text-align: center
+        
 
 // horizontal rules
 
