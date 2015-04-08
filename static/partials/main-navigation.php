@@ -46,7 +46,7 @@
                     <div id="nav-menu-open">
                         <i id="nav-menu-icon" class="fa fa-fw fa-bars"></i>
                     </div>
-                    <div id="nav-menu-close">
+                    <div id="nav-menu-close" class="ghetto-close">
                         <i class="fa fa-fw fa-angle-right"></i>
                         <i class="fa fa-fw fa-angle-left"></i>
                     </div>
