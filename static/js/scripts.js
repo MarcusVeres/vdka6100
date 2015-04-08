@@ -152,15 +152,12 @@
         $('#nav-menu-overlay').animate({width:'toggle'},350);
 
         // toggleIcon
-        var icon = $('#nav-menu-icon');
-        if( icon.hasClass('fa-bars'))
-        {
-            icon.removeClass('fa-bars');
-            icon.addClass('fa-close');
-        } else
-        {
-            icon.removeClass('fa-close');
-            icon.addClass('fa-bars');
+        if ( $('#nav-menu-open').is(':visible')) {
+            $('#nav-menu-open').hide();
+            $('#nav-menu-close').show();
+        } else {
+            $('#nav-menu-close').hide();
+            $('#nav-menu-open').show();
         }
     }
 

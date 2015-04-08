@@ -32,7 +32,7 @@ body
     font-family: 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif
     font-weight: 300
     color: $text_color
-    padding-top: 100px
+    padding-top: 80px
     padding-bottom: 8rem
 
 
@@ -164,7 +164,7 @@ nav
 
         li
             display: inline-block
-            margin: 0.8rem 0.6rem
+            margin: 0.8rem 3rem 0.8rem 0 
 
         a
             font-weight: 700
@@ -189,12 +189,23 @@ nav
     font-size: 2rem
     z-index: 256
 
-    .fa-close
-        color: $light_blue
+    .fa
+        color: $gray
         transition: all 0.3s ease-in-out
 
         &:hover
             color: $off_white
+
+
+#nav-menu-close
+    display: none
+    padding-right: 1.1rem
+
+    .fa-fw
+        // no matter what, these styles can't break!!
+        width: 2px !important
+        font-size: 28px !important
+
 
 #nav-menu-icon
     cursor: pointer
@@ -220,7 +231,7 @@ nav
     top: 0
     bottom: 0
     right: 0
-    width: 50%
+    width: 64%
     color: $off_white
     background: $black
     z-index: 254
@@ -240,15 +251,17 @@ nav
 
     ul
         @include unstyled-list()
-        text-align: center
+        text-align: left
+        padding: 2rem
 
         li
             display: block
-            margin: 0.6rem
+            margin: 2rem
 
     a
         color: $gray
         font-size: 2.1rem
+        line-height: 2.3rem
         font-weight: 400
         text-transform: uppercase
         transition: all 0.3s ease-in-out

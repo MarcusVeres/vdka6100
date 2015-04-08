@@ -43,7 +43,13 @@
             <!-- mobile menu -->
             <div class="display-cell hide-from-desktop">
                 <div id="nav-menu-toggle">
-                    <i id="nav-menu-icon" class="fa fa-fw fa-bars"></i>
+                    <div id="nav-menu-open">
+                        <i id="nav-menu-icon" class="fa fa-fw fa-bars"></i>
+                    </div>
+                    <div id="nav-menu-close">
+                        <i class="fa fa-fw fa-angle-right"></i>
+                        <i class="fa fa-fw fa-angle-left"></i>
+                    </div>
                 </div>
             </div>
 
