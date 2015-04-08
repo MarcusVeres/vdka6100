@@ -31,7 +31,7 @@
     </div>
 
     <div class="floated-hairline">
-        <hr class="hairline" style="color: red;">
+        <hr class="hairline">
     </div>
 
 </section>

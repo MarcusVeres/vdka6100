@@ -32,13 +32,19 @@
 
             </div>
             <div class="display-cell hide-from-mobile" style="width: 40%">
-                <img src="/assets/img/bottle.png" />
+                <div class="index-bottle-wrapper">
+                    <img class="index-bottle" src="/assets/img/bottle.png" />
+                    <div class="index-bottle-underline"></div>
+                </div>
             </div>
         </div>
 
         <div class="display-row top-center-row">
             <div class="display-cell hide-from-desktop top-center-cell">
-                <img src="/assets/img/bottle.png" />
+                <div class="index-bottle-wrapper">
+                    <img class="index-bottle" src="/assets/img/bottle.png" />
+                    <div class="index-bottle-underline"></div>
+                </div>
             </div>
         </div>
 
