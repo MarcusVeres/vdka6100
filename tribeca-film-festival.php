@@ -50,18 +50,20 @@
 
                     <tr>
                         <td>
-                            <?php echo $index; ?>
-                        </td>
-                        <td class="strong">
-                            <?php echo $obj->name; ?>
+                            <span class="strong">
+                                <?php echo $index; ?>. 
+                                <?php echo $obj->name; ?>
+                            </span>
                         </td>
                         <td>
                             <?php echo $obj->address; ?>
                         </td>
                         <td class="hide-from-mobile">
-                            <?php echo $obj->tel; ?>
+                            <a href="tel:<? echo $obj->tel; ?>">
+                                <?php echo $obj->tel; ?>
+                            </a>
                         </td>
-                        <td class="hide-from-desktop">
+                        <td class="phone-icon hide-from-desktop">
                             <a href="tel:<? echo $obj->tel; ?>">
                                 <i class="fa fa-fw fa-phone"></i>
                             </a>

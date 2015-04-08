@@ -457,7 +457,7 @@ section.footer
         max-width: 840px
         padding: 3.2rem 10rem 6rem 10rem
 
-        @media screen and (max-width: 640px)
+        @media screen and (max-width: 768px)
             padding: 2.1rem 5rem 3rem 5rem 
 
         @media screen and (max-width: 400px)
@@ -804,13 +804,33 @@ ol.copy
             font-weight: 600
 
     @media screen and (max-width: 768px)
-        font-size: 1.1rem
+        font-size: 1.3rem
 
         td
             padding: 0.8rem 0
 
             &:first-child
                 padding-right: 0.4rem
+
+            &:last-child
+                padding-left: 1rem
+
+    @media screen and (max-width: 540px)
+        display: block
+        font-size: 1.6rem
+        padding: 0
+        margin-left: 0.8rem
+
+        tr
+            display: block
+            margin-bottom: 1.6rem
+
+        td
+            display: block
+            padding: 0.2rem 0 !important
+
+        .phone-icon
+            display: none
 
 
 .social-icons
@@ -942,5 +962,25 @@ table
 @media screen and (min-width: 768px)
 
     .hide-from-desktop
+        display: none
+
+// hide from small
+
+@media screen and (max-width: $small_breakpoint)
+
+    .hide-from-small
+        display: none
+
+    .show-on-small
+        display: block
+
+// show small
+
+@media screen and (min-width: $small_breakpoint)
+
+    .hide-from-small
+        display: block
+
+    .show-on-small
         display: none
 
