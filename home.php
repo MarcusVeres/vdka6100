@@ -30,6 +30,10 @@
         <img src="/assets/img/bottle.png" />
     </div>
 
+    <div class="floated-hairline">
+        <hr class="hairline" style="color: red;">
+    </div>
+
 </section>
 <!-- / header banner -->
 
