@@ -340,11 +340,32 @@ section.banner.rdn
 section.banner.vision
     background-image: url('/assets/img/vision.jpg')
 
+    @media screen and (max-width: 768px)
+
+        background-position: 19% top
+        text-align: center
+
+        .tagline.right
+            text-align: center
+            width: auto
+            background: rgba( 12 , 12 , 12 , 0.5 )
+            padding: 2.5rem 1rem
+
+
+    
 section.banner.tff
     background-image: url('/assets/img/tff.jpg')
 
 section.banner.product
     background-image: url('/assets/img/about.jpg')
+
+    @media screen and (max-width: 768px)
+        text-align: center
+
+        .tagline
+            width: auto
+            padding-bottom: 275px
+
 
 section.banner.landing
     background-image: url('/assets/img/landing.jpg')
@@ -480,6 +501,8 @@ section.footer
     max-width: 1140px
     margin: auto
 
+    @media screen and (max-width: 640px)
+        padding: 0 2rem
 
 // components
 
@@ -513,6 +536,7 @@ section.footer
 
 .learn-more
     font-size: 1.5rem
+    line-height: 1.5rem
     text-transform: uppercase
     color: $off_white
     font-weight: 700
@@ -524,7 +548,7 @@ section.footer
 
 .inkwell
     width: auto
-    padding: 2rem 4rem 2.6rem 4rem
+    padding: 1.5rem 4rem 2.6rem 4rem
     background: $black
     border: 4px solid $black
     margin-bottom: 6rem
@@ -560,6 +584,7 @@ section.footer
 
         h2
             font-size: 2.1rem
+            line-height: 3rem
 
 .agreement-wrapper
     border-top: 1px solid rgba( 255 , 255 , 255 , 0.4 )
@@ -718,6 +743,12 @@ section.footer
 
 
 // images
+
+.home-bottle
+
+    @media screen and (max-width: 640px)
+        max-height: 450px
+
 
 .poster
     width: 100%
