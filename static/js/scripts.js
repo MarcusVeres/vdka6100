@@ -41,8 +41,8 @@
 
         // configure the map
         var mapOptions = {
-            center: new google.maps.LatLng( 40.716269 , -74.008632 ),
-            zoom: 14,
+            center: new google.maps.LatLng( 40.724976 , -73.999360 ),
+            zoom: 13,
             styles: map_styles,
             mapTypeControl: false,
             panControl: false,

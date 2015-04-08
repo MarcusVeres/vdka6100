@@ -58,8 +58,13 @@
                         <td>
                             <?php echo $obj->address; ?>
                         </td>
-                        <td>
+                        <td class="hide-from-mobile">
                             <?php echo $obj->tel; ?>
+                        </td>
+                        <td class="hide-from-desktop">
+                            <a href="tel:<? echo $obj->tel; ?>">
+                                <i class="fa fa-fw fa-phone"></i>
+                            </a>
                         </td>
                         <td class="map">
                             <a href="<?php echo $obj->map_url; ?>" target="_blank" >
