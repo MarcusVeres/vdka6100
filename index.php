@@ -4,15 +4,9 @@
 
     <div class="display-table" style="height: 90%">
 
-        <img class="logo" src="/assets/img/logo.png" />
+        <img class="logo home" src="/assets/img/logo.png" />
 
-        <div class="display-row">
-            <div class="display-cell hide-from-desktop top-center-holder">
-                <img src="/assets/img/bottle.png" />
-            </div>
-        </div>
-
-        <div class="display-row age-verification" style="height: 100%;">
+        <div class="display-row age-verification">
             <div class="display-cell">
 
                 <h2 class="tagline wide">
@@ -41,6 +35,13 @@
                 <img src="/assets/img/bottle.png" />
             </div>
         </div>
+
+        <div class="display-row top-center-row">
+            <div class="display-cell hide-from-desktop top-center-cell">
+                <img src="/assets/img/bottle.png" />
+            </div>
+        </div>
+
     </div>
 
     <div class="display-table" style="height: 8%">
