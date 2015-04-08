@@ -32,6 +32,13 @@
     // 
     function draw_map( data )
     {
+        var dom_container = document.getElementById('map-canvas');
+
+        // if we don't have a place to put the map then go no further
+        if( !dom_container ){
+            return;
+        }
+
         // configure the map
         var mapOptions = {
             center: new google.maps.LatLng( 40.716269 , -74.008632 ),
@@ -43,7 +50,7 @@
         };
 
         // draw the map on the map canvas dom element
-        var map = new google.maps.Map( document.getElementById("map-canvas") , mapOptions);
+        var map = new google.maps.Map( dom_container , mapOptions);
 
         // create infowindow object
         var infowindow = new google.maps.InfoWindow();
