@@ -131,6 +131,16 @@
     <div class="social-feed-wrapper">
         
         <!-- facebook -->
+        <h2>VDKA6100</h2>
+        <div class="social-feed">
+            <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fvdka6100&amp;width=490&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=true&amp;header=true&amp;height=450" scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width:490px; height:450px; background: white; float:left; " allowTransparency="true"></iframe>
+        </div>
+
+
+        <h2>BMW</h2>
+        <div class="social-feed">
+            <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fbmw&amp;width=490&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=true&amp;header=true&amp;height=450" scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width:490px; height:450px; background: white; float:left; " allowTransparency="true"></iframe>
+        </div>
 
         <!-- twitter -->
         <div class="social-feed">
