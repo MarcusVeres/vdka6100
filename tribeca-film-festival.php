@@ -10,7 +10,7 @@
 
         <div class="content-wrapper tight">
 
-            <img class="centerpiece" src="/assets/img/tff-logo.png" title="Tribeca Film Festival" alt="TFF Logo" />
+            <!--<img class="centerpiece" src="/assets/img/tff-logo.png" title="Tribeca Film Festival" alt="TFF Logo" />-->
 
         </div>
 

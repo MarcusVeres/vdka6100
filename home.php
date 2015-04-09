@@ -10,9 +10,9 @@
         <div class="display-row" style="height: 100%;">
             <div class="display-cell">
                 <h2 class="tagline">
-                    As unique as the <br class="hide-from-mobile"> Tribeca Film Festival.
+                    The Official Vodka of the 2015 Tribeca Film Festival
                 </h2>
-                <a class="learn-more" href="/vdka6100">
+                <a class="learn-more" href="/tribeca-film-festival">
                     Find Out More &raquo;
                 </a>
             </div> 
