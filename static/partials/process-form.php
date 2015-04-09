@@ -13,7 +13,7 @@
     $form_content="From: $first_name $last_name \n\n Email: $email \n Phone: $phone \n\n Postal Code: $postal_code \n\n Subject: $subject \n Message: $message";
 
     // 
-    $recipient = "marcus.veres@gmail.com";
+    $recipient = "sandy@mediamaison.com";
     $subject_line = $subject;
     $mail_header = "From: contact_form@vdka6100.com \r\n";
 
