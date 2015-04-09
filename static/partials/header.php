@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- titles/icons -->
-    <title>VDKA6100 :: Legendairy</title>
+    <title>VDKA6100</title>
     <link rel="icon" href="favicon.ico">
 
     <!-- styles -->

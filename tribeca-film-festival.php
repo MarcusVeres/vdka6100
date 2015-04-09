@@ -112,12 +112,6 @@
         </div>
     </div>
 
-    <div class="inkwell teal">
-        <h2>
-            Enter our sweepstakes!
-        </h2>
-    </div>
-
     <a href="http://facebook.com/VDKA6100" target="_blank">
         <img class="poster" src="/assets/img/sweepstakes.jpg" alt="TFF Sweepstakes" />
     </a>
