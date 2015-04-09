@@ -130,26 +130,22 @@
 
     <div class="social-feed-wrapper">
         
-        <!-- facebook -->
-        <h2>VDKA6100</h2>
-        <div class="social-feed">
-            <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fvdka6100&amp;width=490&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=true&amp;header=true&amp;height=450" scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width:490px; height:450px; background: white; float:left; " allowTransparency="true"></iframe>
-        </div>
-
-
-        <h2>BMW</h2>
-        <div class="social-feed">
-            <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fbmw&amp;width=490&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=true&amp;header=true&amp;height=450" scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width:490px; height:450px; background: white; float:left; " allowTransparency="true"></iframe>
-        </div>
-
         <!-- twitter -->
+        <h2>TWITTER</h2>
         <div class="social-feed">
             <a class="twitter-timeline" href="https://twitter.com/VDKA6100" data-widget-id="585914868575920129">Tweets by @VDKA6100</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </div>
 
         <!-- instagram -->
+        <h2>INSTAGRAM</h2>
+        <iframe src="http://snapwidget.com/in/?h=dmRrYTYxMDB8aW58MTIwfDR8NHx8bm98NXxub25lfG9uU3RhcnR8eWVzfG5v&ve=080415" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:500px; height:500px"></iframe>
 
+        <!-- facebook -->
+        <h2>FACEBOOK</h2>
+        <div class="social-feed">
+            <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fvdka6100&amp;width=490&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=true&amp;header=true&amp;height=450" scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width:490px; height:450px; background: white; float:left; " allowTransparency="true"></iframe>
+        </div>
 
     </div>
 
