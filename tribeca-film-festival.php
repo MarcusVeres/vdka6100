@@ -29,6 +29,10 @@
         </h2>
     </div>
 
+    <a href="http://facebook.com/VDKA6100" target="_blank">
+        <img class="poster" src="/assets/img/eat-and-drink-guide.jpg" alt="Eat and Drink Guide" />
+    </a>
+
     <!-- the map -->
     <div class="map-wrapper">
         <div id="map-canvas"></div>
