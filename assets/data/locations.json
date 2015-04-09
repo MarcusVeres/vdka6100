@@ -24,7 +24,7 @@
         "map_url" : "https://www.google.ca/maps/place/Locanda+Verde/@40.719923,-74.009923,17z/data=!3m1!4b1!4m2!3m1!1s0x89c259f5852e694d:0x5bed69f7f928f84b?hl=en"
     },
     {
-        "name" : "Il Mulino Trattoria",
+        "name" : "Trattoria Il Mulino",
         "address" : "36 E 20th St, New York, NY 10003",
         "tel" : "212-223-8848",
         "latitude" : "40.73859",
@@ -112,7 +112,7 @@
         "map_url" : "https://www.google.ca/maps/place/Louie+and+Chan/@40.718601,-73.992441,17z/data=!3m1!4b1!4m2!3m1!1s0x89c25c7b4755b33f:0xfcc2b504e12a3d31?hl=en"
     },
     {
-        "name" : "Lead Belly",
+        "name" : "Leadbelly",
         "address" : "14 Orchard street, New York, NY 10002",
         "tel" : "646-596-9142",
         "latitude" : "40.714938",
