@@ -1,5 +1,29 @@
 (function(){
 
+
+    // age verification
+
+    // if we are not on the landing page
+    if( window.location.pathname != '/' )
+    {
+        var age_cookie = $.cookie('age-verification');
+
+        // if the user has not verified their age...
+        if( age_cookie != 1 )
+        {
+            console.log( "is not 1" );
+
+            // redirect to the index page
+            window.location.href = '/';
+        }
+
+    }
+
+
+    var age_cookie = $.cookie("age-verification");
+    console.log( "euhontoehu" , age_cookie );
+
+
     // color properties for styling the map
     var map_styles = [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#6195a0"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"landscape","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#e6f3d6"},{"visibility":"on"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45},{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#f4d2c5"},{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"labels.text","stylers":[{"color":"#4e4e4e"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#f4f4f4"}]},{"featureType":"road.arterial","elementType":"labels.text.fill","stylers":[{"color":"#787878"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#eaf6f8"},{"visibility":"on"}]},{"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#eaf6f8"}]}];
 
@@ -164,6 +188,28 @@
 
     // once everything has been loaded, we can have our fun
     $(document).ready(function(){
+
+        // age verification
+
+        $('#over-21').on('tap click', function()
+        {
+            // set a cookie to verify the user is over 21
+            $.cookie("age-verification", "1", { expires: 30 });
+
+            // take the user to the home page
+            window.location.href = "/home";
+        });
+
+        $('#under-21').on('tap click', function()
+        {
+            $.cookie("age-verification", "0", { expires: 30 });
+
+            // redirect to responsibility
+            window.location.replace("http://responsibility.org");
+
+        });
+
+
 
         // nav
 

@@ -14,16 +14,12 @@
                 </h2>
 
                 <div class="inline">
-                    <a href="/home">
-                        <button class="btn line">
-                            Over 21
-                        </button>
-                    </a>
-                    <a href="https://responsibility.org">
-                        <button class="btn line">
-                            Under 21
-                        </button>
-                    </a>
+                    <button id="over-21" class="btn line">
+                        Over 21
+                    </button>
+                    <button id="under-21" class="btn line">
+                        Under 21
+                    </button>
                 </div>
 
                 <div class="checkbox">
@@ -63,7 +59,7 @@
                         and
                         <a href="/privacy">
                             Privacy Policy
-                        </a>
+                        </a>.
                     </p>
                 </div>
 
