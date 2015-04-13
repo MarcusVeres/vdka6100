@@ -11,17 +11,13 @@
         // if the user has not verified their age...
         if( age_cookie != 1 )
         {
-            console.log( "is not 1" );
+            // console.log( "is not 1" );
 
             // redirect to the index page
             window.location.href = '/';
         }
 
     }
-
-
-    var age_cookie = $.cookie("age-verification");
-    console.log( "euhontoehu" , age_cookie );
 
 
     // color properties for styling the map
@@ -37,11 +33,11 @@
     {
         $.get( "/assets/data/locations.json" , function() 
         {
-            console.log("getting data");
+            // console.log("getting data");
         })
         .done(function( data ) 
         {
-            console.log("got the data:", data);
+            // console.log("got the data:", data);
 
             // call the function and feed it the data
             draw_map( data );
