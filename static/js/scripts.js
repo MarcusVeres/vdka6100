@@ -209,7 +209,7 @@
 
         $('#under-21').on('tap click', function()
         {
-            $.cookie("age-verification", "0", { expires: 30 });
+            $.cookie("age-verification", "0");
 
             // redirect to responsibility
             window.location.replace("http://responsibility.org");
