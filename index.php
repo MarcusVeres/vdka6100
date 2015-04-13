@@ -23,7 +23,7 @@
                 </div>
 
                 <div class="checkbox">
-                    <label><input type="checkbox" value="">Remember Me</label>
+                    <label><input id="remember-me" type="checkbox" value="">Remember Me</label>
                 </div>
 
             </div>

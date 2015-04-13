@@ -193,8 +193,15 @@
 
         $('#over-21').on('tap click', function()
         {
+            // get value of checkbox
+            var checked = $('#remember-me').is(':checked');
+            
             // set a cookie to verify the user is over 21
-            $.cookie("age-verification", "1", { expires: 30 });
+            if( checked ) {
+                $.cookie("age-verification", "1", { expires: 30 });
+            } else {
+                $.cookie("age-verification", "1");
+            }
 
             // take the user to the home page
             window.location.href = "/home";
@@ -208,7 +215,6 @@
             window.location.replace("http://responsibility.org");
 
         });
-
 
 
         // nav
