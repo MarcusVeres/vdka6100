@@ -117,7 +117,7 @@
     </div>
 
     <a href="http://facebook.com/VDKA6100" target="_blank">
-        <img class="poster" src="/assets/img/sweepstakes.jpg" alt="TFF Sweepstakes" />
+        <img class="poster" src="/assets/img/meet-and-greet.jpg" alt="Enter to win a Meet and Greet with Robert DeNiro" />
     </a>
 
     <div class="inkwell teal">
