@@ -21,7 +21,7 @@
 
 
 <section class="bg-black">
-<div class="content-wrapper text bg-off-white">
+<div class="content-wrapper text bg-white">
 
     <div class="inkwell teal">
         <h2>
