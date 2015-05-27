@@ -65,7 +65,7 @@
         <span class="light-gray">|</span>
 
         <span class="strong">
-            <a href="mailto:sandy@mediamaison">email</a>
+            <a href="mailto:sandy@mediamaison.com">email</a>
         </span>
 
     </p>
