@@ -22,7 +22,7 @@
         {
             // loop through the data
 
-            for( var i = 0 , len = data.length ; i < 3 ; i++ )
+            for( var i = 0 , len = data.length ; i < 2 ; i++ )
             {
                 // push the data to our output array
                 output.push( data[i] );
@@ -88,7 +88,7 @@
     }
 
     // execute
-    pull_data( source );
+    // pull_data( source );
 
     // 
 
@@ -124,6 +124,16 @@
                 var link = document.getElementById('downloadlink');
                 link.href = makeTextFile( JSON.stringify( output ));
                 link.style.display = 'block';
+            }, false);
+        }
+
+        // look for generator button
+        var generate = document.getElementById('generate');
+
+        if( generate ) {
+            generate.addEventListener('click', function () {
+                // pull data from where-to-buy.json and format it
+                pull_data( source );
             }, false);
         }
 

@@ -260,11 +260,11 @@
             
             // which map?
             if( map_element.hasClass( 'tribeca' )){
-                console.log( "loading tribeca map" );
+                // console.log( "loading tribeca map" );
                 pull_data( '/assets/data/tribeca-locations.json' );
             } 
             else if ( map_element.hasClass( 'stores' )){
-                console.log( "loading locations map" );
+                // console.log( "loading locations map" );
                 pull_data( '/assets/data/store-locations.json' );
             }
         }
