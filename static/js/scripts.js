@@ -77,8 +77,11 @@
         // list DOM object
         var $list = $('#list');
 
+        // markers array
+        var markers_array = [];
+
         // loop through the data we got from 
-        for( var i = 0 , length = data.length ; i < length ; i++ ) {
+        for( var i = 0 , length = data.length ; i < 100 ; i++ ) {
 
             // parsing each individual data entry
             (function( index_value )
@@ -104,6 +107,9 @@
                     icon: 'http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=' + order + '|27acb4|000000',
                     title: item.address
                 });
+
+                // try this out
+                markers_array.push( marker );
 
                 // prepare the content that will go into each map marker pop-up
                 var content_string =
@@ -151,6 +157,8 @@
             })( i ); // use a closure to prevent the index from being overridden :: helps with looping
 
         }
+
+        var markerCluster = new MarkerClusterer( map, markers_array );
 
         // if the user clicks anywhere on the map, close any pop-ups that may be open
         google.maps.event.addListener( map , 'click', function() {

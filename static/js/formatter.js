@@ -1,6 +1,6 @@
 (function(){
 
-    console.log("we has query");
+    // console.log("we has query");
 
     var source = '/assets/data/where-to-buy.json';
 
@@ -21,21 +21,42 @@
         .done( function( data )
         {
             // loop through the data
+            // we have to limit the speed of the loop, otherwise Google detects a DDoS
 
-            for( var i = 0 , len = data.length ; i < 2 ; i++ )
-            {
-                // push the data to our output array
-                output.push( data[i] );
+            var iterator = 0;
+            var limit = data.length;
 
-                // prepare a query for google maps
-                var geolocated = make_query( data[i] );
+            function parse_data_entry() {
 
-                // parse the query
-                var extracted = process_query( geolocated , i );
+                setTimeout( function()
+                {
+                    // push the data to our output array
+                    output.push( data[iterator] );
+
+                    // prepare a query for google maps
+                    var geolocated = make_query( data[iterator] );
+
+                    // parse the query
+                    var extracted = process_query( geolocated , iterator );
+
+                    // increment the iterator
+                    iterator++;
+
+                    if( iterator < limit ) {
+                        parse_data_entry();
+                        console.log( "parsing:" , iterator , "/" , limit );
+                    }
+                    else if( iterator >= limit ) {
+                        // show output at the end
+                        console.log( output );
+                    }
+                    
+                }, 250);
+
             }
 
-            // show output at the end
-            console.log( output ); 
+            // start the loop
+            parse_data_entry();
 
         })
         .fail( function( error ) {

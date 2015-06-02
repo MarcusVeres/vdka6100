@@ -63,6 +63,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyAdVeDCpF1gDswiV6rRNJF7Ibqi6aJAtvs&sensor=false"></script>
+<script src="/lib/markerclusterer_compiled.js"></script>
 
 <!-- scripts -->
 <script src="static/js/scripts.js"></script>

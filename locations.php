@@ -58,37 +58,16 @@
 
                 <?php $index++; ?>
 
+                <?php 
+                    if( $index > 100 ){
+                        break;    
+                    }
+                ?>
+
                 <?php endforeach; ?>
             </table>
             <!-- the table approach -->
 
-
-            <!-- the list approach -->
-            <!--
-            <ul class="locations">
-                <?php foreach($json as $obj): ?>
-
-                    <li>
-                        <span class="strong">
-                            <?php echo $obj->name; ?>
-                        </span> | 
-                        <span>
-                            <?php echo $obj->address; ?>
-                        </span> | 
-                        <span>
-                            <?php echo $obj->tel; ?>
-                        </span> | 
-                        <span class="map">
-                            <a href="<?php echo $obj->map_url; ?>" target="_blank" >
-                                MAP
-                            </a>
-                        </span>
-                    </li>
-
-                <?php endforeach; ?>
-            </ul>
-            -->
-            <!-- the list approach -->
 
         </div>
     </div>
