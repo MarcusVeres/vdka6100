@@ -81,7 +81,7 @@
         var markers_array = [];
 
         // loop through the data we got from 
-        for( var i = 0 , length = data.length ; i < 100 ; i++ ) {
+        for( var i = 0 , len = data.length ; i < len ; i++ ) {
 
             // parsing each individual data entry
             (function( index_value )
