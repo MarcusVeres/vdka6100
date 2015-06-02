@@ -35,7 +35,7 @@
 
     <!-- the map -->
     <div class="map-wrapper">
-        <div id="map-canvas"></div>
+        <div id="map-canvas" class="tribeca"></div>
     </div>
 
     <div class="row">
@@ -43,7 +43,7 @@
 
             <?php
                 $root = $_SERVER['DOCUMENT_ROOT'];
-                $json = file_get_contents( $root . '/assets/data/locations.json' );
+                $json = file_get_contents( $root . '/assets/data/tribeca-locations.json' );
                 $json = json_decode($json);
                 $index = 1;
             ?>
