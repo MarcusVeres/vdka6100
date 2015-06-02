@@ -14,7 +14,7 @@
 
 
 <section class="bg-black">
-<div class="content-wrapper text bg-white">
+<div class="content-wrapper bg-white">
 
     <div class="row">
         <div class="col-xs-12">
@@ -27,7 +27,7 @@
             ?>
 
             <!-- the table approach -->
-            <table class="locations">
+            <table class="store-locations">
                 <?php foreach($json as $obj): ?>
 
                     <tr>
@@ -38,9 +38,13 @@
                             </span>
                         </td>
                         <td>
-                            <?php echo $obj->pretty_address; ?>
+                            <?php 
+                                if( isset( $obj->pretty_address )){
+                                    echo $obj->pretty_address; 
+                                }
+                            ?>
                         </td>
-                        <td class="hide-from-mobile">
+                        <td class="phone-number hide-from-mobile">
                             <a href="tel:<? echo $obj->phone; ?>">
                                 <?php echo $obj->phone; ?>
                             </a>

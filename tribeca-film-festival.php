@@ -49,7 +49,7 @@
             ?>
 
             <!-- the table approach -->
-            <table class="locations">
+            <table class="tribeca-locations">
                 <?php foreach($json as $obj): ?>
 
                     <tr>
