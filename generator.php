@@ -52,7 +52,7 @@
                             </span>
                         </td>
                         <td>
-                            <?php echo $obj->formated_address; ?>
+                            <?php echo $obj->pretty_address; ?>
                         </td>
                         <td class="hide-from-mobile">
                             <a href="tel:<? echo $obj->phone; ?>">

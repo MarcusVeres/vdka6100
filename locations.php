@@ -16,9 +16,6 @@
 <section class="bg-black">
 <div class="content-wrapper text bg-white">
 
-    <button id="create">Create file</button>
-    <a download="parsed-locations.json" id="downloadlink" style="display: none">Download</a>
-
     <div class="row">
         <div class="col-xs-12">
 
@@ -41,7 +38,7 @@
                             </span>
                         </td>
                         <td>
-                            <?php echo $obj->formated_address; ?>
+                            <?php echo $obj->pretty_address; ?>
                         </td>
                         <td class="hide-from-mobile">
                             <a href="tel:<? echo $obj->phone; ?>">
