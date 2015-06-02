@@ -13,6 +13,24 @@
 </section>
 
 
+<section class="">
+<div class="content-wrapper">
+
+    <div class="row">
+        <div class="col-sm-6">
+            <button class="btn btn-default form-control">
+                Use My Location
+            </button>
+        </div>
+        <div class="col-sm-6">
+            <input class="form-control" type="text" placeholder="ZIP Code" />
+        </div>
+    </div>
+
+</div>
+</section>
+
+
 <section class="bg-black">
 <div class="content-wrapper bg-white">
 
@@ -59,6 +77,7 @@
                 <?php $index++; ?>
 
                 <?php 
+                    // TODO: implement pagination!!!
                     if( $index > 100 ){
                         break;    
                     }
