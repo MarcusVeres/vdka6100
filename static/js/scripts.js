@@ -27,11 +27,10 @@
     // stores location data
     var json_data = 'unset';
 
-
     // grab json data for store locations
-    var pull_data = function()
+    var pull_data = function( source )
     {
-        $.get( "/assets/data/locations.json" , function() 
+        $.get( source , function() 
         {
             // console.log("getting data");
         })
@@ -66,7 +65,7 @@
             styles: map_styles,
             mapTypeControl: false,
             panControl: false,
-            zoomControl: false
+            zoomControl: true
         };
 
         // draw the map on the map canvas dom element
@@ -249,7 +248,28 @@
         // get the locations
         // TODO: check for element before doing this
 
-        pull_data();
+        // var pull_data_from = "/assets/data/locations.json";
+        // var pull_data_from = "/assets/data/tribeca-locations.json";
+        // var pull_data_from = "/assets/data/where-to-buy.json";
+        // var pull_data_from = "/assets/data/parsed-locations.json";
+
+        // if there is a map canvas on the page
+        var map_element = $('#map-canvas');
+
+        if( map_element ){
+            
+            // which map?
+            if( map_element.hasClass( 'tribeca' )){
+                console.log( "loading tribeca map" );
+                pull_data( '/assets/data/tribeca-locations.json' );
+            } 
+            else if ( map_element.hasClass( 'stores' )){
+                console.log( "loading locations map" );
+                pull_data( '/assets/data/store-locations.json' );
+            }
+        }
+
+        // pull_data();
 
     });
 
