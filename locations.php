@@ -3,7 +3,7 @@
 <?php include('static/partials/main-navigation.php'); ?>
 
 
-<section class="banner main rdn">
+<section class="banner main map">
 
     <!-- the map -->
     <div class="map-wrapper">
@@ -17,16 +17,16 @@
 <div class="content-wrapper">
 
     <div class="row">
-        <div class="col-sm-6">
+        <div class="col-xs-6">
             <button id="get-location" class="btn btn-default form-control">
                 Use My Location
             </button>
         </div>
-        <div class="col-sm-6">
+        <div class="col-xs-6">
             <div class="input-group">
                 <input id="input-zip" class="form-control" type="text" placeholder="ZIP Code">
                 <span class="input-group-btn">
-                    <button id="get-zip" class="btn btn-default" type="button">Find!</button>
+                    <button id="get-zip" class="btn btn-default" type="button">Find</button>
                 </span>
             </div>
         </div>
