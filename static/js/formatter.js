@@ -1,4 +1,4 @@
-(function(){
+var formatter = (function(){
 
     // console.log("we has query");
 
@@ -159,6 +159,13 @@
         }
 
     });
+
+    // return an object
+    return {
+        "google_prefix" : google_prefix,
+        "google_suffix" : google_suffix,
+        "process_zip" : process_query
+    }
 
 })(jQuery);
 

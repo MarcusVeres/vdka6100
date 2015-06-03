@@ -1,5 +1,8 @@
 (function(){
 
+    // google maps geolocation variables
+    var google_prefix = 'https://maps.googleapis.com/maps/api/geocode/json?address=';
+    var google_suffix = '&key=AIzaSyAdVeDCpF1gDswiV6rRNJF7Ibqi6aJAtvs';
 
     // age verification
 
@@ -350,6 +353,57 @@
             });
         }
 
+
+        $('#get-zip').on('tap, click', function()
+        {
+            process_zip();
+        });
+
+        // center the map based on a postal code
+        var process_zip = function()
+        {
+            // console.log( formatter );
+
+            // get our zip code
+            var zip = $('#input-zip').val();
+
+            // make sure it exists
+            if( !zip ){
+                alert( "you must enter a zip code!" );
+                return;
+            }
+
+            // prepare the query we send to google 
+            var query = google_prefix + zip + google_suffix;
+
+            // send the query to google
+            $.get( query , function() {} )
+            .done( function( data )
+            {
+                // console.log( data );
+                var result = data.results[0];
+                var output = {};           
+
+                // extract the necessary information 
+                output.latitude = result.geometry.location.lat;
+                output.longitude = result.geometry.location.lng;
+                output.pretty_address = result.formatted_address;
+
+                // test it
+                console.log( output ); 
+
+                // zoom out
+                map.setZoom( 11 );
+
+                // re-center the map
+                map.setCenter({
+                    'lat' : output.latitude,
+                    'lng' : output.longitude
+                });
+
+            });
+
+        }
 
     });
 

@@ -23,7 +23,12 @@
             </button>
         </div>
         <div class="col-sm-6">
-            <input class="form-control" type="text" placeholder="ZIP Code" />
+            <div class="input-group">
+                <input id="input-zip" class="form-control" type="text" placeholder="ZIP Code">
+                <span class="input-group-btn">
+                    <button id="get-zip" class="btn btn-default" type="button">Find!</button>
+                </span>
+            </div>
         </div>
     </div>
 
