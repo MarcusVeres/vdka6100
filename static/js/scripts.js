@@ -252,18 +252,8 @@
         }
         */
 
-
         // turn our store locations giant table into a datatable
         $('#store-locations-table').DataTable();
-
-
-        // get the locations
-        // TODO: check for element before doing this
-
-        // var pull_data_from = "/assets/data/locations.json";
-        // var pull_data_from = "/assets/data/tribeca-locations.json";
-        // var pull_data_from = "/assets/data/where-to-buy.json";
-        // var pull_data_from = "/assets/data/parsed-locations.json";
 
         // if there is a map canvas on the page
         var map_element = $('#map-canvas');
