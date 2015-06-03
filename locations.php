@@ -18,7 +18,7 @@
 
     <div class="row">
         <div class="col-sm-6">
-            <button class="btn btn-default form-control">
+            <button id="get-location" class="btn btn-default form-control">
                 Use My Location
             </button>
         </div>

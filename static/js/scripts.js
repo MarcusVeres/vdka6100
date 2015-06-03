@@ -49,6 +49,8 @@
 
 
     // 
+    var map = 'unset';
+
     function draw_map( data )
     {
         var dom_container = document.getElementById('map-canvas');
@@ -69,7 +71,7 @@
         };
 
         // draw the map on the map canvas dom element
-        var map = new google.maps.Map( dom_container , mapOptions);
+        map = new google.maps.Map( dom_container , mapOptions);
 
         // create infowindow object
         var infowindow = new google.maps.InfoWindow();
@@ -316,7 +318,38 @@
             }
         }
 
-        // pull_data();
+
+        // center the map v1
+
+        $('#get-location').on('tap click', function(){
+            get_location();
+        });
+
+        // get the user's current location
+        function get_location()
+        {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition( show_position );
+            } else {
+                alert("Geolocation is not supported by this browser.");
+            }
+        }
+
+        // move the map into place
+        function show_position( position ) 
+        {
+            // console.log( position.coords );
+
+            // zoom out
+            map.setZoom( 11 );
+
+            // re-center the map
+            map.setCenter({
+                'lat' : position.coords.latitude,
+                'lng' : position.coords.longitude
+            });
+        }
+
 
     });
 
