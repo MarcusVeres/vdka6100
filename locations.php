@@ -3,7 +3,7 @@
 <?php include('static/partials/main-navigation.php'); ?>
 
 
-<section class="banner main map">
+<section class="map">
 
     <!-- the map -->
     <div class="map-wrapper">
