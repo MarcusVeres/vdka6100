@@ -4,6 +4,10 @@
     var google_prefix = 'https://maps.googleapis.com/maps/api/geocode/json?address=';
     var google_suffix = '&key=AIzaSyAdVeDCpF1gDswiV6rRNJF7Ibqi6aJAtvs';
 
+    // the main google map 
+    var map = 'unset';
+
+
     // age verification
 
     // if we are not on the landing page
@@ -31,7 +35,7 @@
     var json_data = 'unset';
 
     // grab json data for store locations
-    var pull_data = function( source )
+    var pull_data = function( source , options )
     {
         $.get( source , function() 
         {
@@ -42,7 +46,7 @@
             // console.log("got the data:", data);
 
             // call the function and feed it the data
-            draw_map( data );
+            draw_map( data , options );
 
         })
         .fail(function() {
@@ -51,10 +55,7 @@
     }
 
 
-    // 
-    var map = 'unset';
-
-    function draw_map( data )
+    function draw_map( data , options )
     {
         var dom_container = document.getElementById('map-canvas');
 
@@ -63,10 +64,16 @@
             return;
         }
 
+        // check for options
+        if( options ){
+            var zoom = options.zoom;
+            var center = options.center;
+        }
+
         // configure the map
         var mapOptions = {
-            center: new google.maps.LatLng( 40.724976 , -73.999360 ),
-            zoom: 13,
+            center: center || new google.maps.LatLng( 37 , -98.35 ),
+            zoom: zoom || 4,
             styles: map_styles,
             mapTypeControl: false,
             panControl: false,
@@ -311,11 +318,21 @@
         if( map_element ){
             
             // which map?
-            if( map_element.hasClass( 'tribeca' )){
+            if( map_element.hasClass( 'tribeca' )) {
                 // console.log( "loading tribeca map" );
-                pull_data( '/assets/data/tribeca-locations.json' );
+
+                // position the map over tribeca
+                options = {
+                    center: {
+                        'lat' : 40.724976,
+                        'lng' : -73.99936
+                    },
+                    zoom: 13
+                }
+
+                pull_data( '/assets/data/tribeca-locations.json' , options );
             } 
-            else if ( map_element.hasClass( 'stores' )){
+            else if ( map_element.hasClass( 'stores' )) {
                 // console.log( "loading locations map" );
                 pull_data( '/assets/data/store-locations.json' );
             }
