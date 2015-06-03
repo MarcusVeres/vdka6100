@@ -44,11 +44,11 @@ var formatter = (function(){
 
                     if( iterator < limit ) {
                         parse_data_entry();
-                        console.log( "parsing:" , iterator , "/" , limit );
+                        // console.log( "parsing:" , iterator , "/" , limit );
                     }
                     else if( iterator >= limit ) {
                         // show output at the end
-                        console.log( output );
+                        // console.log( output );
                     }
                     
                 }, 250);
@@ -60,7 +60,7 @@ var formatter = (function(){
 
         })
         .fail( function( error ) {
-            console.log( "error:", error );
+            // console.log( "error:", error );
         });
     }
 

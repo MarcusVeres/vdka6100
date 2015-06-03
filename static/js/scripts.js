@@ -407,7 +407,7 @@
                 output.pretty_address = result.formatted_address;
 
                 // test it
-                console.log( output ); 
+                // console.log( output ); 
 
                 // zoom out
                 map.setZoom( 11 );
