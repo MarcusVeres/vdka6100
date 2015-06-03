@@ -253,6 +253,10 @@
         */
 
 
+        // turn our store locations giant table into a datatable
+        $('#store-locations-table').DataTable();
+
+
         // get the locations
         // TODO: check for element before doing this
 

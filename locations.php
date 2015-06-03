@@ -31,8 +31,8 @@
 </section>
 
 
-<section class="bg-black">
-<div class="content-wrapper bg-white">
+<section class="bg-white">
+<div class="content-wrapper padded bg-white">
 
     <div class="row">
         <div class="col-xs-12">
@@ -41,17 +41,22 @@
                 $root = $_SERVER['DOCUMENT_ROOT'];
                 $json = file_get_contents( $root . '/assets/data/store-locations.json' );
                 $json = json_decode($json);
-                $index = 1;
             ?>
 
-            <!-- the table approach -->
-            <table class="store-locations">
-                <?php foreach($json as $obj): ?>
+            <table id="store-locations-table" class="store-locations">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Phone</th>
+                    </tr>
+                </thead>
+                <tbody>
 
+                    <?php foreach($json as $obj): ?>
                     <tr>
                         <td>
                             <span class="strong">
-                                <?php echo $index; ?>. 
                                 <?php echo $obj->customer; ?>
                             </span>
                         </td>
@@ -62,31 +67,16 @@
                                 }
                             ?>
                         </td>
-                        <td class="phone-number hide-from-mobile">
+                        <td class="phone-number">
                             <a href="tel:<? echo $obj->phone; ?>">
                                 <?php echo $obj->phone; ?>
                             </a>
                         </td>
-                        <td class="phone-icon hide-from-desktop">
-                            <a href="tel:<? echo $obj->phone; ?>">
-                                <i class="fa fa-fw fa-phone"></i>
-                            </a>
-                        </td>
                     </tr>
+                    <?php endforeach; ?>
 
-                <?php $index++; ?>
-
-                <?php 
-                    // TODO: implement pagination!!!
-                    if( $index > 100 ){
-                        break;    
-                    }
-                ?>
-
-                <?php endforeach; ?>
+                </tbody>
             </table>
-            <!-- the table approach -->
-
 
         </div>
     </div>
