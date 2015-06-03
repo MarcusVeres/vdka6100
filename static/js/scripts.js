@@ -103,8 +103,8 @@
                 var marker = new google.maps.Marker({
                     position: coordinates,
                     map: map,
-                    // icon: '/static/img/map_marker.png',
-                    icon: 'http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=' + order + '|27acb4|000000',
+                    icon: '/assets/img/map-marker.png',
+                    // icon: 'http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=' + order + '|27acb4|000000',
                     title: item.address
                 });
 
