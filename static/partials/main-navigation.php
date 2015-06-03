@@ -28,6 +28,11 @@
                         </a>
                     </li>
                     <li>
+                        <a href="/locations">
+                            Locations
+                        </a>
+                    </li>
+                    <li>
                         <a href="/tribeca-film-festival">
                             Tribeca Film Festival
                         </a>
@@ -73,6 +78,11 @@
                     <li>
                         <a href="/vision">
                             The Vision
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/locations">
+                            Locations
                         </a>
                     </li>
                     <li>
