@@ -158,7 +158,52 @@
 
         }
 
-        var markerCluster = new MarkerClusterer( map, markers_array );
+        // ------------------------------------------------------
+        // marker cluster stuff
+
+        // style the marker cluster
+        var cluster_styles = [
+            {
+                textColor: 'white',
+                url: '/assets/img/marker-cluster.png',
+                height: 56,
+                width: 56
+            },
+            {
+                textColor: 'white',
+                url: '/assets/img/marker-cluster.png',
+                height: 56,
+                width: 56
+            },
+            {
+                textColor: 'white',
+                url: '/assets/img/marker-cluster.png',
+                height: 56,
+                width: 56
+            },
+            {
+                textColor: 'white',
+                url: '/assets/img/marker-cluster.png',
+                height: 56,
+                width: 56
+            },
+            {
+                textColor: 'white',
+                url: '/assets/img/marker-cluster.png',
+                height: 56,
+                width: 56
+            }
+        ];
+
+        // customize the marker cluster
+        var mc_options = {
+            // gridSize: 50, 
+            // maxZoom: 15
+            styles: cluster_styles   
+        };
+
+        // initialize the marker cluster
+        var marker_cluster = new MarkerClusterer( map , markers_array , mc_options );
 
         // if the user clicks anywhere on the map, close any pop-ups that may be open
         google.maps.event.addListener( map , 'click', function() {
