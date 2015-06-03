@@ -55,20 +55,19 @@
                     <tr>
                         <td>
                             <span class="strong">
-                                <?php echo $index; ?>. 
-                                <?php echo $obj->name; ?>
+                                <?php echo $obj->customer; ?>
                             </span>
                         </td>
                         <td>
-                            <?php echo $obj->address; ?>
+                            <?php echo $obj->pretty_address; ?>
                         </td>
                         <td class="hide-from-mobile">
-                            <a href="tel:<? echo $obj->tel; ?>">
-                                <?php echo $obj->tel; ?>
+                            <a href="tel:<? echo $obj->phone; ?>">
+                                <?php echo $obj->phone; ?>
                             </a>
                         </td>
                         <td class="phone-icon hide-from-desktop">
-                            <a href="tel:<? echo $obj->tel; ?>">
+                            <a href="tel:<? echo $obj->phone; ?>">
                                 <i class="fa fa-fw fa-phone"></i>
                             </a>
                         </td>

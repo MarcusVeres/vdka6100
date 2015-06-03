@@ -114,9 +114,9 @@
                 // prepare the content that will go into each map marker pop-up
                 var content_string =
                     '<div class="popup-parent">' +
-                        '<h2>' + item.name + '<h2>' +  
-                        '<p>' + item.address + '</p>' + 
-                        '<p>' + item.tel + '</p>' + 
+                        '<h2>' + item.customer + '<h2>' +  
+                        '<p>' + item.pretty_address + '</p>' + 
+                        '<p>' + item.phone + '</p>' + 
                     '</div>';
 
                 // prepare an event listener for each marker
