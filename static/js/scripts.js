@@ -336,6 +336,10 @@
                 // console.log( "loading locations map" );
                 pull_data( '/assets/data/store-locations.json' );
             }
+
+            // set placeholder text for data-tables
+            $('.dataTables_filter input').attr("placeholder", "name, state, zip");
+
         }
 
 
