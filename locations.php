@@ -13,7 +13,7 @@
 </section>
 
 
-<section class="">
+<section class="locations-input">
 <div class="content-wrapper">
 
     <div class="row">
