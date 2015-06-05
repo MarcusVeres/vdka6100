@@ -34,7 +34,7 @@
     </a>
 
     <!-- the map -->
-    <div class="map-wrapper">
+    <div class="map-wrapper tribeca">
         <div id="map-canvas" class="tribeca"></div>
     </div>
 
