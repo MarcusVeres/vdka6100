@@ -349,6 +349,7 @@
             get_location();
         });
 
+        /*
         // get the user's current location
         function get_location()
         {
@@ -358,9 +359,49 @@
                 alert("Geolocation is not supported by this browser.");
             }
         }
+        */
 
+        // get the user's current location
+        function get_location()
+        {
+            // Try W3C Geolocation (Preferred)
+            if (navigator.geolocation) {
+
+                navigator.geolocation.getCurrentPosition(function(position) {
+                    show_position( position.coords.latitude, position.coords.longitude );
+                }, function(error) {
+                    handle_no_geolocation();
+                },
+                    { maximumAge: 600000, timeout: 10000 });
+
+            } else if (google.gears) {
+
+                // Try Google Gears Geolocation
+
+                var geo = google.gears.factory.create('beta.geolocation');
+
+                geo.getCurrentPosition( function (position) {
+                    show_position( position.latitude, position.longitude );
+                }, function () {
+                    handle_no_geolocation();
+                });
+
+            }
+            //Cannot obtain Geo Location
+            else {
+                handle_no_geolocation();
+            }
+        }
+
+        // the user does not have geolocation
+        function handle_no_geolocation()
+        {
+            alert("Geolocation is not supported by this browser.");
+        }
+
+        // geolocation worked fine
         // move the map into place
-        function show_position( position ) 
+        function show_position( latitude , longitude ) 
         {
             // console.log( position.coords );
 
@@ -369,8 +410,8 @@
 
             // re-center the map
             map.setCenter({
-                'lat' : position.coords.latitude,
-                'lng' : position.coords.longitude
+                'lat' : latitude,
+                'lng' : longitude
             });
         }
 
