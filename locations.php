@@ -16,6 +16,7 @@
 <section class="locations-input">
 <div class="content-wrapper">
 
+    <form class="block-form">
     <div class="row">
         <div class="col-xs-6">
             <button id="get-location" class="btn btn-default form-control">
@@ -31,6 +32,7 @@
             </div>
         </div>
     </div>
+    </form>
 
 </div>
 </section>

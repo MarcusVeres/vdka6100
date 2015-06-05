@@ -701,6 +701,23 @@ section.footer
         .col-xs-6
             padding: 6px !important
 
+    input[type=text],
+    input[type=email],
+    textarea
+        background: #EEE
+        color: $off_black
+        border: none
+        @include border-radius( 0 )
+        @include grayscale-shadow( 0 , 0 )
+
+    .btn
+        background: $black
+        color: $white
+        font-weight: 100
+        text-transform: uppercase
+        @include border-radius( 0 )
+        @include grayscale-shadow( 0 , 0 )
+
 
 // modal window
 
@@ -801,7 +818,7 @@ section.footer
         textarea
             min-height: 64px
 
-    button[type=submit]
+    button[type=submit],
         background: $black
         color: $white
         width: 49%
